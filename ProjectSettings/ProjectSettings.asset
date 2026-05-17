@@ -660,7 +660,13 @@ PlayerSettings:
   XboxOneOverrideIdentityName: 
   XboxOneOverrideIdentityPublisher: 
   vrEditorSettings: {}
-  cloudServicesEnabled: {}
+  cloudServicesEnabled:
+    Build: 0
+    Game Performance: 0
+    Legacy Analytics: 0
+    Purchasing: 0
+    UDP: 0
+    Unity Ads: 0
   luminIcon:
     m_Name: 
     m_ModelFolderPath: 
@@ -682,11 +688,11 @@ PlayerSettings:
   captureStartupLogs: {}
   activeInputHandler: 1
   windowsGamepadBackendHint: 0
-  cloudProjectId: 272915b8-b907-4df7-893e-5cc9f063a12f
+  cloudProjectId: 94dbeed0-ae4b-4423-b2fd-e7b7185f454d
   framebufferDepthMemorylessMode: 0
   qualitySettingsNames: []
   projectName: King Kingdom
-  organizationId: unity_2d18440fd468960ca1cc
+  organizationId: milanihigor016
   cloudEnabled: 0
   legacyClampBlendShapeWeights: 0
   hmiLoadingImage: {fileID: 0}
