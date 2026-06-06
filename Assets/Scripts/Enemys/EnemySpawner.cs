@@ -48,7 +48,7 @@ public class EnemySpawner : MonoBehaviour
         }
     }
 
-    private int CountEnemiesOnScreen()
+    private static int CountEnemiesOnScreen()
     {
         return GameObject.FindGameObjectsWithTag("Enemy").Length;
     }

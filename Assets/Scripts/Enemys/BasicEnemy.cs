@@ -8,9 +8,14 @@ public class BasicEnemy : MonoBehaviour
     [SerializeField]
     private int damage = 1;
 
+    [SerializeField]
+    private float attackCooldown = 1f;
+
     private bool isAttacking;
+    private float lastAttackTime = float.MinValue;
     private Rigidbody2D rigidbody2d;
     private Collider2D enemyCollider;
+    private Castle targetCastle;
 
     void Awake()
     {
@@ -29,6 +34,7 @@ public class BasicEnemy : MonoBehaviour
         if (isAttacking)
         {
             StopMovement();
+            TryAttackOnCooldown();
             return;
         }
 
@@ -43,22 +49,37 @@ public class BasicEnemy : MonoBehaviour
         }
     }
 
+    private void TryAttackOnCooldown()
+    {
+        if (targetCastle == null)
+        {
+            isAttacking = false;
+            return;
+        }
+
+        if (Time.time - lastAttackTime >= attackCooldown)
+        {
+            lastAttackTime = Time.time;
+            targetCastle.TakeDamage(damage);
+        }
+    }
+
     private void OnTriggerEnter2D(Collider2D other)
     {
-        TryAttackCastle(other);
+        TryStartAttack(other);
     }
 
     private void OnTriggerStay2D(Collider2D other)
     {
-        TryAttackCastle(other);
+        TryStartAttack(other);
     }
 
     private void OnCollisionEnter2D(Collision2D collision)
     {
-        TryAttackCastle(collision.collider);
+        TryStartAttack(collision.collider);
     }
 
-    private void TryAttackCastle(Collider2D targetCollider)
+    private void TryStartAttack(Collider2D targetCollider)
     {
         if (isAttacking)
         {
@@ -71,9 +92,9 @@ public class BasicEnemy : MonoBehaviour
             return;
         }
 
+        targetCastle = castle;
         isAttacking = true;
         StopAtCastle(targetCollider);
-        castle.TakeDamage(damage);
     }
 
     private void StopAtCastle(Collider2D castleCollider)
@@ -96,5 +117,22 @@ public class BasicEnemy : MonoBehaviour
         {
             rigidbody2d.linearVelocity = Vector2.zero;
         }
+    }
+
+    public void TakeDamage(int arrowDamage)
+    {
+        Destroy(gameObject);
+    }
+
+    private void OnDrawGizmos()
+    {
+        var collider = GetComponent<Collider2D>();
+        if (collider == null)
+        {
+            return;
+        }
+
+        Gizmos.color = Color.red;
+        Gizmos.DrawWireCube(collider.bounds.center, collider.bounds.size);
     }
 }
