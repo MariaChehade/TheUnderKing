@@ -374,7 +374,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 327746233}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 219775d7ddf10b946a77ed2b08a7d8f5, type: 3}
+  m_Script: {fileID: 11500000, guid: b358f9a30c99d614bb4404ca8cb13055, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::TimeController
   dayDurationSeconds: 30
@@ -873,7 +873,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 680776698}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: acc24251a81c16b4d8f6901fbc9c04bc, type: 3}
+  m_Script: {fileID: 11500000, guid: 8d12755649ae04040a14d8a3d735e2aa, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Castle
   maxHealth: 100
@@ -1051,11 +1051,11 @@ MonoBehaviour:
   m_GameObject: {fileID: 820433206}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d278656767ed8eb4cb95ce2388cbe6c3, type: 3}
+  m_Script: {fileID: 11500000, guid: 21a4ee94dd0655849a797e93c6a239f7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::EnemySpawner
-  enemyPrefab: {fileID: 0}
-  timeController: {fileID: 0}
+  enemyPrefab: {fileID: 7963540753960358673, guid: 01a986bebb9383c41b7a98f2218b9a73, type: 3}
+  timeController: {fileID: 327746234}
   minSpawnSeconds: 1
   maxSpawnSeconds: 3
   maxEnemiesOnScreen: 10
@@ -1116,7 +1116,7 @@ SpriteRenderer:
   m_Size: {x: 2.27, y: 1.99}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
-  m_WasSpriteAssigned: 0
+  m_WasSpriteAssigned: 1
   m_SpriteSortPoint: 0
 --- !u!4 &820433209
 Transform:
@@ -1345,7 +1345,7 @@ SpriteRenderer:
   m_Size: {x: 55, y: 55}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
-  m_WasSpriteAssigned: 0
+  m_WasSpriteAssigned: 1
   m_SpriteSortPoint: 0
 --- !u!4 &1373176406
 Transform:
@@ -1527,10 +1527,10 @@ MonoBehaviour:
   m_GameObject: {fileID: 1443602188}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ed7688c3af8cea24eb1223dc83f517c3, type: 3}
+  m_Script: {fileID: 11500000, guid: ec8a9b4d871858c4fab99519cb102b1d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Archer
-  arrowPrefab: {fileID: 0}
+  arrowPrefab: {fileID: 7917908031558131241, guid: a3fef4fbb2303c943ad962a7adf4b8f0, type: 3}
   shootCooldown: 2
   shootRange: 15
   baseForce: 10
@@ -1688,7 +1688,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 1560789925}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 77f8764ff633ca74a82b8256190c724a, type: 3}
+  m_Script: {fileID: 11500000, guid: 70e296a48ab074248b4f0db5f6a69907, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Player
   speed: 10
