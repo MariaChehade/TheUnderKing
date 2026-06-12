@@ -11,6 +11,10 @@ public class BasicEnemy : MonoBehaviour
     [SerializeField]
     private float attackCooldown = 1f;
 
+    [SerializeField]
+    private int maxHealth = 5;
+
+    private int currentHealth;
     private bool isAttacking;
     private float lastAttackTime = float.MinValue;
     private Rigidbody2D rigidbody2d;
@@ -21,6 +25,8 @@ public class BasicEnemy : MonoBehaviour
     {
         rigidbody2d = GetComponent<Rigidbody2D>();
         enemyCollider = GetComponent<Collider2D>();
+
+        currentHealth = maxHealth;
 
         var enemyLayer = LayerMask.NameToLayer("Enemy");
         if (enemyLayer != -1)
@@ -121,6 +127,20 @@ public class BasicEnemy : MonoBehaviour
 
     public void TakeDamage(int arrowDamage)
     {
+        if (arrowDamage <= 0 || currentHealth <= 0) return;
+
+        currentHealth = Mathf.Max(0, currentHealth - arrowDamage);
+        Debug.Log($"Enemy took {arrowDamage} damage. Remaining: {currentHealth}");
+
+        if (currentHealth == 0)
+        {
+            Die();
+        }
+    }
+
+    private void Die()
+    {
+        // play death effect here (optional)
         Destroy(gameObject);
     }
 
@@ -134,5 +154,17 @@ public class BasicEnemy : MonoBehaviour
 
         Gizmos.color = Color.red;
         Gizmos.DrawWireCube(collider.bounds.center, collider.bounds.size);
+
+        // health bar
+        if (Application.isPlaying)
+        {
+            float ratio = (maxHealth > 0) ? (float)currentHealth / maxHealth : 0f;
+            var top = collider.bounds.max;
+            var barSize = new Vector3(collider.bounds.size.x * ratio, 0.1f, 0f);
+            var barCenter = new Vector3((collider.bounds.min.x + collider.bounds.max.x) / 2f - (collider.bounds.size.x * (1 - ratio) / 2f), top.y + 0.15f, 0f);
+
+            Gizmos.color = Color.green;
+            Gizmos.DrawCube(barCenter, barSize);
+        }
     }
 }
