@@ -105,11 +105,15 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9abf8cdd1e1bc9e44afb8762bbe087aa, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Arrow
-  damage: 10
+  damage: 100
   lifetime: 5
   groundLayers:
     serializedVersion: 2
     m_Bits: 8
+  enemyLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  colliderRadius: 0.05
 --- !u!61 &3155747396603689302
 BoxCollider2D:
   m_ObjectHideFlags: 0
