@@ -55,7 +55,7 @@ public class Arrow : MonoBehaviour
         RaycastHit2D enemyHit = Physics2D.CircleCast(origin, colliderRadius, direction, distance, enemyLayers);
         if (enemyHit.collider != null)
         {
-            var enemy = enemyHit.collider.GetComponent<BasicEnemy>();
+            var enemy = enemyHit.collider.GetComponentInParent<BaseEnemy>();
             if (enemy != null)
             {
                 enemy.TakeDamage(damage);

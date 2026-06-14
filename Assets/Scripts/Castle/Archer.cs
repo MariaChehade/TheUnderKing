@@ -25,9 +25,9 @@ public class Archer : MonoBehaviour
     private float accuracyVariation = 0.15f;
 
     private float lastShootTime;
-    private List<BasicEnemy> enemies = new List<BasicEnemy>();
+    private List<BaseEnemy> enemies = new List<BaseEnemy>();
     private Vector2 lastCalculatedVelocity;
-    private BasicEnemy currentTarget;
+    private BaseEnemy currentTarget;
 
     void Update()
     {
@@ -43,7 +43,7 @@ public class Archer : MonoBehaviour
     private void UpdateEnemyList()
     {
         enemies.Clear();
-        var allEnemies = FindObjectsByType<BasicEnemy>(FindObjectsSortMode.None);
+        var allEnemies = FindObjectsByType<BaseEnemy>(FindObjectsSortMode.None);
         foreach (var enemy in allEnemies)
         {
             if (enemy == null)
