@@ -7,6 +7,9 @@ public class Archer : MonoBehaviour
     private GameObject arrowPrefab;
 
     [SerializeField]
+    private float arrowZOffset = -0.1f;
+
+    [SerializeField]
     private float shootCooldown = 2f;
 
     [SerializeField]
@@ -82,7 +85,8 @@ public class Archer : MonoBehaviour
             return;
         }
 
-        var arrowInstance = Instantiate(arrowPrefab, transform.position, Quaternion.identity);
+        var spawnPos = new Vector3(transform.position.x, transform.position.y, transform.position.z + arrowZOffset);
+        var arrowInstance = Instantiate(arrowPrefab, spawnPos, Quaternion.identity);
         var arrow = arrowInstance.GetComponent<Arrow>();
 
         if (arrow == null)

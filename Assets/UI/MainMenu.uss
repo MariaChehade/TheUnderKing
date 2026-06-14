@@ -1,0 +1,52 @@
+.background {
+    flex-grow: 1;
+    background-color: #d14777; /* Pink from sky */
+    align-items: center;
+    justify-content: center;
+}
+
+.menu-container {
+    align-items: center;
+    justify-content: center;
+    background-color: #551934; /* Dark purple from foreground */
+    padding: 40px;
+    border-width: 4px;
+    border-color: #3b0d20; /* Even darker edge */
+    border-radius: 0; /* Square for pixel art feel */
+    box-shadow: 10px 10px 0px 0px rgba(0, 0, 0, 0.5); /* Hard drop shadow */
+}
+
+.title-text {
+    font-size: 64px;
+    color: #e888a5; /* Light pink from moon */
+    -unity-font-style: bold;
+    margin-bottom: 40px;
+    -unity-text-outline-width: 3px;
+    -unity-text-outline-color: #3b0d20;
+    letter-spacing: 5px;
+}
+
+.menu-button {
+    width: 250px;
+    height: 60px;
+    margin-bottom: 20px;
+    font-size: 24px;
+    color: #ffffff;
+    background-color: #962850; /* Mid pink/purple from trees */
+    border-width: 4px;
+    border-color: #551934;
+    border-radius: 0;
+    -unity-font-style: bold;
+    transition-duration: 0.1s;
+}
+
+.menu-button:hover {
+    background-color: #b53866;
+    scale: 1.05;
+}
+
+.menu-button:active {
+    background-color: #e888a5;
+    color: #551934;
+    scale: 0.95;
+}

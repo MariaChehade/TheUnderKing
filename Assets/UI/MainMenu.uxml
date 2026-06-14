@@ -1,0 +1,11 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" xsi="http://www.w3.org/2001/XMLSchema-instance" engine="UnityEngine.UIElements" editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <Style src="project://database/Assets/UI/MainMenu.uss?fileID=7433441132597879392&amp;guid=6b668f4476c5b9646b9a8cf72d825000&amp;type=3#MainMenu" />
+    <ui:VisualElement name="Background" class="background">
+        <ui:VisualElement name="MenuContainer" class="menu-container">
+            <ui:Label text="THE UNDER KING" name="Title" class="title-text" />
+            <ui:Button text="PLAY" name="PlayButton" class="menu-button" />
+            <ui:Button text="OPTIONS" name="OptionsButton" class="menu-button" />
+            <ui:Button text="QUIT" name="QuitButton" class="menu-button" />
+        </ui:VisualElement>
+    </ui:VisualElement>
+</ui:UXML>
