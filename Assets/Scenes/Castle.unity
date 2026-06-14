@@ -1175,8 +1175,12 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 3272783148637886951, guid: b9baa1374e949ad4d942633b0c13e718, type: 3}
+      propertyPath: forceVariation
+      value: 0.2
+      objectReference: {fileID: 0}
+    - target: {fileID: 3272783148637886951, guid: b9baa1374e949ad4d942633b0c13e718, type: 3}
       propertyPath: accuracyVariation
-      value: 0.5
+      value: 0.15
       objectReference: {fileID: 0}
     - target: {fileID: 8160017333849479793, guid: b9baa1374e949ad4d942633b0c13e718, type: 3}
       propertyPath: m_Name
@@ -1250,6 +1254,10 @@ PrefabInstance:
     - target: {fileID: 6690087779377045567, guid: 101176b4c7746fb4b9d7aa32fe11d7fd, type: 3}
       propertyPath: m_Name
       value: FlightEnemy
+      objectReference: {fileID: 0}
+    - target: {fileID: 6690087779377045567, guid: 101176b4c7746fb4b9d7aa32fe11d7fd, type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []

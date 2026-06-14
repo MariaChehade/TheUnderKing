@@ -108,41 +108,25 @@ public class Archer : MonoBehaviour
         var dy = targetPosition.y - shooterPos.y;
 
         if (Mathf.Abs(dx) < 0.1f)
-            return Vector2.up * baseForce;
+            return new Vector2(0, dy > 0 ? baseForce : -baseForce);
 
+        var g = 9.81f;
         var force = baseForce * (1f + Random.Range(-forceVariation, forceVariation));
         var accuracy = 1f - Random.Range(0f, accuracyVariation);
-        var g = 9.81f;
-        var v2 = force * force;
-        var absDx = Mathf.Abs(dx);
 
-        // Equação quadrática: a*tan²θ - absDx*tanθ + (dy + a) = 0
-        // onde a = g*dx²/(2v²)
-        var a = g * absDx * absDx / (2f * v2);
-        var discriminant = absDx * absDx - 4f * a * (dy + a);
+        // Tempo estimado de voo baseado na distância horizontal
+        // vx = force * cos(θ) ≈ force para ângulos baixos; usamos dx/force como estimativa inicial
+        var tEstimate = Mathf.Abs(dx) / force;
 
-        float launchAngle;
-        if (discriminant < 0)
-        {
-            // Alvo fora do alcance — força ângulo de 45°
-            launchAngle = 45f * Mathf.Deg2Rad;
-        }
-        else
-        {
-            // Duas soluções: escolhe a trajetória mais baixa (mais rápida e precisa)
-            var sqrtDisc = Mathf.Sqrt(discriminant);
-            var tanFlat = (absDx - sqrtDisc) / (2f * a);
-            var tanHigh = (absDx + sqrtDisc) / (2f * a);
+        // Compensação de queda: quanto a gravidade vai puxar a flecha durante o voo
+        // dy_needed = dy_real + 0.5 * g * t²   (subimos a mira para compensar a queda)
+        var dyCompensated = dy + 0.5f * g * tEstimate * tEstimate;
 
-            // Prefere ângulo baixo; se negativo, usa o alto
-            var tanAngle = tanFlat > 0 ? tanFlat : tanHigh;
-            launchAngle = Mathf.Atan(tanAngle);
-            launchAngle = Mathf.Clamp(launchAngle, 15f * Mathf.Deg2Rad, 75f * Mathf.Deg2Rad);
-        }
+        // Direção final com compensação de queda embutida
+        var direction = new Vector2(dx, dyCompensated).normalized;
 
-        var sign = Mathf.Sign(dx);
-        var velocityX = Mathf.Cos(launchAngle) * force * sign * accuracy;
-        var velocityY = Mathf.Sin(launchAngle) * force * accuracy;
+        var velocityX = direction.x * force * accuracy;
+        var velocityY = direction.y * force * accuracy;
 
         return new Vector2(velocityX, velocityY);
     }
