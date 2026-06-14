@@ -1,6 +1,5 @@
 using System.Collections;
 using UnityEngine;
-using Unity.Cinemachine;
 
 public class Trigger1 : MonoBehaviour
 {
