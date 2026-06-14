@@ -6,7 +6,13 @@ public class EnemySpawner : MonoBehaviour
     private GameObject enemyPrefab;
 
     [SerializeField]
+    private GameObject bossPrefab;
+
+    [SerializeField]
     private TimeController timeController;
+
+    [SerializeField]
+    private LevelControll levelControll;
 
     [SerializeField]
     private float minSpawnSeconds = 1f;
@@ -14,24 +20,39 @@ public class EnemySpawner : MonoBehaviour
     [SerializeField]
     private float maxSpawnSeconds = 3f;
 
-    [SerializeField]
-    private int maxEnemiesOnScreen = 10;
-
     private float spawnTimer;
+    private int lastProcessedNight = -1;
 
     private void Start()
     {
+        if (levelControll == null)
+        {
+            levelControll = FindFirstObjectByType<LevelControll>();
+        }
+
         ResetSpawnTimer();
     }
 
     private void Update()
     {
-        if (enemyPrefab == null || timeController == null || !timeController.IsNight)
+        if (enemyPrefab == null || timeController == null)
         {
             return;
         }
 
-        if (maxEnemiesOnScreen > 0 && CountEnemiesOnScreen() >= maxEnemiesOnScreen)
+        if (levelControll == null)
+        {
+            levelControll = FindFirstObjectByType<LevelControll>();
+        }
+
+        if (!timeController.IsNight)
+        {
+            return;
+        }
+
+        TrySpawnBossForCurrentNight();
+
+        if (levelControll != null && levelControll.EnemiesSpawnedThisNight >= levelControll.MaxEnemiesPerNight)
         {
             return;
         }
@@ -40,17 +61,54 @@ public class EnemySpawner : MonoBehaviour
 
         if (spawnTimer <= 0f)
         {
-            Debug.Log("Inimigo spawnado");
-
-            Instantiate(enemyPrefab, transform.position, transform.rotation);
-
+            SpawnEnemy();
             ResetSpawnTimer();
         }
     }
 
-    private static int CountEnemiesOnScreen()
+    private void TrySpawnBossForCurrentNight()
     {
-        return GameObject.FindGameObjectsWithTag("Enemy").Length;
+        if (levelControll == null || bossPrefab == null)
+        {
+            return;
+        }
+
+        if (lastProcessedNight == levelControll.CurrentNight)
+        {
+            return;
+        }
+
+        lastProcessedNight = levelControll.CurrentNight;
+
+        var bossCount = levelControll.BossCountThisNight;
+        for (var i = 0; i < bossCount; i++)
+        {
+            SpawnBoss();
+        }
+    }
+
+    private void SpawnEnemy()
+    {
+        var instance = Instantiate(enemyPrefab, transform.position, transform.rotation);
+        var enemy = instance.GetComponent<BaseEnemy>();
+
+        if (enemy != null && levelControll != null)
+        {
+            enemy.ApplyHealthMultiplier(levelControll.EnemyHealthMultiplier);
+            levelControll.RegisterEnemySpawn();
+        }
+    }
+
+    private void SpawnBoss()
+    {
+        var bossInstance = Instantiate(bossPrefab, transform.position, transform.rotation);
+        var boss = bossInstance.GetComponent<BaseEnemy>();
+
+        if (boss != null && levelControll != null)
+        {
+            boss.ApplyHealthMultiplier(levelControll.EnemyHealthMultiplier);
+            levelControll.RegisterEnemySpawn();
+        }
     }
 
     private void ResetSpawnTimer()

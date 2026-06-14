@@ -12,21 +12,33 @@ public class TimeController : MonoBehaviour
 
     private float timeRemaining;
 
-    void Start()
+    private void Start()
     {
         IsNight = false;
-        timeRemaining = Mathf.Max(0.1f, dayDurationSeconds);
+        timeRemaining = Mathf.Max(1f, dayDurationSeconds);
+        Debug.Log("Dia começou");
     }
 
-    void Update()
+    private void Update()
     {
-        timeRemaining -= Time.deltaTime;
-
-        if (timeRemaining <= 0f)
+        if (timeRemaining > 0f)
         {
-            Debug.Log("Noite? " + IsNight);
-            IsNight = !IsNight;
-            timeRemaining = Mathf.Max(0.1f, IsNight ? nightDurationSeconds : dayDurationSeconds);
+            timeRemaining -= Time.deltaTime;
         }
+
+        if (timeRemaining > 0f)
+        {
+            return;
+        }
+
+        IsNight = !IsNight;
+        timeRemaining = Mathf.Max(1f, IsNight ? nightDurationSeconds : dayDurationSeconds);
+        Debug.Log(IsNight ? "Noite começou" : "Dia começou");
+    }
+
+    private void OnValidate()
+    {
+        dayDurationSeconds = Mathf.Max(1f, dayDurationSeconds);
+        nightDurationSeconds = Mathf.Max(1f, nightDurationSeconds);
     }
 }

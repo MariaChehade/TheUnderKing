@@ -131,6 +131,17 @@ public abstract class BaseEnemy : MonoBehaviour
         }
     }
 
+    public void ApplyHealthMultiplier(float multiplier)
+    {
+        if (multiplier <= 0f)
+        {
+            multiplier = 1f;
+        }
+
+        maxHealth = Mathf.Max(1, Mathf.RoundToInt(maxHealth * multiplier));
+        currentHealth = maxHealth;
+    }
+
     public virtual void TakeDamage(int arrowDamage)
     {
         if (arrowDamage <= 0 || currentHealth <= 0) return;
