@@ -30,14 +30,36 @@ public class CaveGenerator : MonoBehaviour
             {
                 BlockType type;
 
-                // 5% diamante
-                if (Random.value < 0.05f)
-                {
-                    type = BlockType.Diamond;
-                }
-                else
+                // Camada 1 (0 - 4) somente pedra
+                if (y < 5)
                 {
                     type = BlockType.Stone;
+                }
+
+                // Camada 2 (5 - 29) 5% diamante
+                else if (y < 30)
+                {
+                    if (Random.value < 0.05f)
+                    {
+                        type = BlockType.Diamond;
+                    }
+                    else
+                    {
+                        type = BlockType.Stone;
+                    }
+                }
+
+                // Camada 3 (30 - 45) 10% diamante
+                else
+                {
+                    if (Random.value < 0.10f)
+                    {
+                        type = BlockType.Diamond;
+                    }
+                    else
+                    {
+                        type = BlockType.Stone;
+                    }
                 }
 
                 grid[x, y] = type;
