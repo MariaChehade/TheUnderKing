@@ -1,7 +1,11 @@
+using System;
 using UnityEngine;
 
 public class Castle : MonoBehaviour
 {
+    /// <summary>Disparado quando o castelo chega a 0 de vida.</summary>
+    public static event Action OnGameOver;
+
     [SerializeField]
     private int maxHealth = 100;
 
@@ -27,8 +31,9 @@ public class Castle : MonoBehaviour
 
         if (currentHealth == 0)
         {
-            Time.timeScale = 0f;
             Debug.Log("GameOver");
+            OnGameOver?.Invoke();
+            Time.timeScale = 0f;
         }
     }
 

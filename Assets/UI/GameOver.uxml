@@ -1,0 +1,19 @@
+﻿<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements"
+         xsi="http://www.w3.org/2001/XMLSchema-instance"
+         engine="UnityEngine.UIElements" editor="UnityEditor.UIElements"
+         noNamespaceSchemaLocation="../../UIElementsSchema/UIElements.xsd"
+         editor-extension-mode="False">
+    <Style src="project://database/Assets/UI/GameOver.uss" />
+
+    <ui:VisualElement name="GameOverOverlay" class="gameover-overlay">
+        <ui:VisualElement name="GameOverContainer" class="gameover-container">
+            <ui:Label name="GameOverIcon"     text="&#x1F480;" class="gameover-icon" />
+            <ui:Label name="GameOverTitle"    text="GAME OVER"  class="gameover-title" />
+            <ui:Label name="GameOverSubtitle" text="O castelo foi destruído..." class="gameover-subtitle" />
+            <ui:VisualElement name="Divider" class="gameover-divider" />
+            <ui:Button name="RestartButton"  text="JOGAR NOVAMENTE" class="gameover-button" />
+            <ui:Button name="MainMenuButton" text="MENU PRINCIPAL"  class="gameover-button" />
+            <ui:Button name="QuitButton"     text="SAIR DO JOGO"    class="gameover-button--danger" />
+        </ui:VisualElement>
+    </ui:VisualElement>
+</ui:UXML>

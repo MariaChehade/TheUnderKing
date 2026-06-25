@@ -1,0 +1,112 @@
+﻿/* =====================================================
+   GameOver.uss  —  Tela de Game Over (The Under King)
+   ===================================================== */
+
+/* Overlay escuro cobrindo toda a tela */
+.gameover-overlay {
+    flex-grow: 1;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(0, 0, 0, 0.80);
+}
+
+/* Painel central */
+.gameover-container {
+    align-items: center;
+    justify-content: center;
+    background-color: #2a0812;
+    padding: 50px 70px;
+    border-width: 4px;
+    border-color: #8b1a2e;
+    border-radius: 0;
+}
+
+/* Ícone grande */
+.gameover-icon {
+    font-size: 72px;
+    margin-bottom: 10px;
+    -unity-text-align: middle-center;
+}
+
+/* Título GAME OVER */
+.gameover-title {
+    font-size: 62px;
+    color: #cc2233;
+    -unity-font-style: bold;
+    -unity-text-outline-width: 3px;
+    -unity-text-outline-color: #1a0006;
+    letter-spacing: 8px;
+    margin-bottom: 10px;
+    -unity-text-align: middle-center;
+}
+
+/* Subtítulo */
+.gameover-subtitle {
+    font-size: 18px;
+    color: #b8688a;
+    letter-spacing: 3px;
+    margin-bottom: 34px;
+    -unity-text-align: middle-center;
+}
+
+/* Separador */
+.gameover-divider {
+    width: 280px;
+    height: 3px;
+    background-color: #8b1a2e;
+    margin-bottom: 30px;
+}
+
+/* Botão padrão */
+.gameover-button {
+    width: 280px;
+    height: 60px;
+    margin-bottom: 16px;
+    font-size: 22px;
+    color: #ffffff;
+    background-color: #962850;
+    border-width: 4px;
+    border-color: #551934;
+    border-radius: 0;
+    -unity-font-style: bold;
+    transition-duration: 0.1s;
+    letter-spacing: 2px;
+}
+
+.gameover-button:hover {
+    background-color: #b53866;
+    scale: 1.05;
+}
+
+.gameover-button:active {
+    background-color: #e888a5;
+    color: #551934;
+    scale: 0.95;
+}
+
+/* Botão de perigo (Sair) */
+.gameover-button--danger {
+    width: 280px;
+    height: 60px;
+    margin-bottom: 0;
+    font-size: 22px;
+    color: #ffcccc;
+    background-color: #7a1a1a;
+    border-width: 4px;
+    border-color: #3b0d20;
+    border-radius: 0;
+    -unity-font-style: bold;
+    transition-duration: 0.1s;
+    letter-spacing: 2px;
+}
+
+.gameover-button--danger:hover {
+    background-color: #a02020;
+    scale: 1.05;
+}
+
+.gameover-button--danger:active {
+    background-color: #e86060;
+    color: #3b0d20;
+    scale: 0.95;
+}
