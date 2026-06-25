@@ -70,14 +70,14 @@ public class Block : MonoBehaviour
         if (!_playerInContact) return;
 
         // Cada pressionamento de seta = 1 de dano (GetKeyDown: dispara uma vez por tecla)
-        if (Input.GetKeyDown(KeyCode.UpArrow)    ||
-            Input.GetKeyDown(KeyCode.DownArrow)  ||
-            Input.GetKeyDown(KeyCode.LeftArrow)  ||
-            Input.GetKeyDown(KeyCode.RightArrow) ||
+        if (Input.GetKeyDown(KeyCode.UpArrow)       ||
+            Input.GetKeyDown(KeyCode.DownArrow)     ||
+            Input.GetKeyDown(KeyCode.LeftArrow)     ||
+            Input.GetKeyDown(KeyCode.RightArrow)    ||
             
-            Input.GetKeyDown(KeyCode.W) ||
-            Input.GetKeyDown(KeyCode.A) ||
-            Input.GetKeyDown(KeyCode.S) ||
+            Input.GetKeyDown(KeyCode.W)             ||
+            Input.GetKeyDown(KeyCode.A)             ||
+            Input.GetKeyDown(KeyCode.S)             ||
             Input.GetKeyDown(KeyCode.D))
         {
             TakeDamage(1);
