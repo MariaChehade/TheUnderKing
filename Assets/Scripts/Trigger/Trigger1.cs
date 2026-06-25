@@ -9,11 +9,19 @@ public class Trigger1 : MonoBehaviour
     [SerializeField] GameObject cameraAtivar;
     [SerializeField] GameObject cameraDesativar;
 
+    [Header("Áudio")]
+    [SerializeField] bool entrandoNaCaverna = true; // 👈 marca true no castle-cave, false no cave-castle
+
     private void OnTriggerEnter2D(Collider2D collision)
     {
         if (collision.CompareTag("Player"))
         {
             StartCoroutine(SubirPlayer(collision.transform));
+
+            if (entrandoNaCaverna)
+                AudioManager.instance.EntrarNaCaverna();
+            else
+                AudioManager.instance.SairDaCaverna();
         }
     }
 
@@ -36,21 +44,5 @@ public class Trigger1 : MonoBehaviour
 
         cameraAtivar.SetActive(true);
         cameraDesativar.SetActive(false);
-    }
-    
-    void OnTriggerEnter(Collider other)
-    {
-        if (other.CompareTag("Player"))
-        {
-            AudioManager.instance.EntrarNaCaverna();
-        }
-    }
-
-    void OnTriggerExit(Collider other)
-    {
-        if (other.CompareTag("Player"))
-        {
-            AudioManager.instance.SairDaCaverna();
-        }
     }
 }
