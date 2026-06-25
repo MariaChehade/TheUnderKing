@@ -1,0 +1,832 @@
+fileFormatVersion: 2
+guid: 4638b084068591048bd614d607b5982c
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 7927479391358106660
+    second: "Sprite_anima\xE7\xE3o_bloco_ouro_quebrando_0"
+  - first:
+      213: -8871102168817119980
+    second: "Sprite_anima\xE7\xE3o_bloco_ouro_quebrando_1"
+  - first:
+      213: -952022202242442133
+    second: "Sprite_anima\xE7\xE3o_bloco_ouro_quebrando_2"
+  - first:
+      213: -2487523674749062361
+    second: "Sprite_anima\xE7\xE3o_bloco_ouro_quebrando_3"
+  - first:
+      213: -2117251088405492680
+    second: "Sprite_anima\xE7\xE3o_bloco_ouro_quebrando_4"
+  - first:
+      213: -648901827426069151
+    second: "Sprite_anima\xE7\xE3o_bloco_ouro_quebrando_5"
+  - first:
+      213: 264541512739194615
+    second: "Sprite_anima\xE7\xE3o_bloco_ouro_quebrando_6"
+  - first:
+      213: -6961372375426003428
+    second: "Sprite_anima\xE7\xE3o_bloco_ouro_quebrando_7"
+  - first:
+      213: 4778353320197047259
+    second: "Sprite_anima\xE7\xE3o_bloco_ouro_quebrando_8"
+  - first:
+      213: 8108529165825740141
+    second: "Sprite_anima\xE7\xE3o_bloco_ouro_quebrando_9"
+  - first:
+      213: 4908326995526145128
+    second: "Sprite_anima\xE7\xE3o_bloco_ouro_quebrando_10"
+  - first:
+      213: -7578897033405944594
+    second: "Sprite_anima\xE7\xE3o_bloco_ouro_quebrando_11"
+  - first:
+      213: -2240720666344246431
+    second: "Sprite_anima\xE7\xE3o_bloco_ouro_quebrando_12"
+  - first:
+      213: 9118310580043913348
+    second: "Sprite_anima\xE7\xE3o_bloco_ouro_quebrando_13"
+  - first:
+      213: 2443627726471342337
+    second: "Sprite_anima\xE7\xE3o_bloco_ouro_quebrando_14"
+  - first:
+      213: 6200972717895415070
+    second: "Sprite_anima\xE7\xE3o_bloco_ouro_quebrando_15"
+  - first:
+      213: -6985422449332954856
+    second: "Sprite_anima\xE7\xE3o_bloco_ouro_quebrando_16"
+  - first:
+      213: -6182648573445932185
+    second: "Sprite_anima\xE7\xE3o_bloco_ouro_quebrando_17"
+  - first:
+      213: -8110172411643687549
+    second: "Sprite_anima\xE7\xE3o_bloco_ouro_quebrando_18"
+  - first:
+      213: -136565643070156409
+    second: "Sprite_anima\xE7\xE3o_bloco_ouro_quebrando_19"
+  - first:
+      213: 899267285093255060
+    second: "Sprite_anima\xE7\xE3o_bloco_ouro_quebrando_20"
+  - first:
+      213: -4823783019667918299
+    second: "Sprite_anima\xE7\xE3o_bloco_ouro_quebrando_21"
+  - first:
+      213: -6661641846442720616
+    second: "Sprite_anima\xE7\xE3o_bloco_ouro_quebrando_22"
+  - first:
+      213: 2233968305617824075
+    second: "Sprite_anima\xE7\xE3o_bloco_ouro_quebrando_23"
+  - first:
+      213: -2934375913894955667
+    second: "Sprite_anima\xE7\xE3o_bloco_ouro_quebrando_24"
+  - first:
+      213: 6933996772018240065
+    second: "Sprite_anima\xE7\xE3o_bloco_ouro_quebrando_25"
+  - first:
+      213: -7489578537430972196
+    second: "Sprite_anima\xE7\xE3o_bloco_ouro_quebrando_26"
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: "Sprite_anima\xE7\xE3o_bloco_ouro_quebrando_0"
+      rect:
+        serializedVersion: 2
+        x: 119
+        y: 103
+        width: 274
+        height: 274
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 42c312e3180140e60800000000000000
+      internalID: 7927479391358106660
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Sprite_anima\xE7\xE3o_bloco_ouro_quebrando_1"
+      rect:
+        serializedVersion: 2
+        x: 615
+        y: 103
+        width: 274
+        height: 274
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 41d457d149383e480800000000000000
+      internalID: -8871102168817119980
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Sprite_anima\xE7\xE3o_bloco_ouro_quebrando_2"
+      rect:
+        serializedVersion: 2
+        x: 1111
+        y: 103
+        width: 274
+        height: 274
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b6cdd01e9dcb9c2f0800000000000000
+      internalID: -952022202242442133
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Sprite_anima\xE7\xE3o_bloco_ouro_quebrando_3"
+      rect:
+        serializedVersion: 2
+        x: 1599
+        y: 223
+        width: 98
+        height: 82
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7233534b56a8a7dd0800000000000000
+      internalID: -2487523674749062361
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Sprite_anima\xE7\xE3o_bloco_ouro_quebrando_4"
+      rect:
+        serializedVersion: 2
+        x: 1679
+        y: 263
+        width: 90
+        height: 106
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 83c084f4a530e92e0800000000000000
+      internalID: -2117251088405492680
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Sprite_anima\xE7\xE3o_bloco_ouro_quebrando_5"
+      rect:
+        serializedVersion: 2
+        x: 1775
+        y: 247
+        width: 114
+        height: 98
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 165da2ad933aef6f0800000000000000
+      internalID: -648901827426069151
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Sprite_anima\xE7\xE3o_bloco_ouro_quebrando_6"
+      rect:
+        serializedVersion: 2
+        x: 2127
+        y: 223
+        width: 66
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7f60a2faa17dba300800000000000000
+      internalID: 264541512739194615
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Sprite_anima\xE7\xE3o_bloco_ouro_quebrando_7"
+      rect:
+        serializedVersion: 2
+        x: 2207
+        y: 263
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c1e048d15bc346f90800000000000000
+      internalID: -6961372375426003428
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Sprite_anima\xE7\xE3o_bloco_ouro_quebrando_8"
+      rect:
+        serializedVersion: 2
+        x: 2215
+        y: 263
+        width: 50
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bd347a5270f105240800000000000000
+      internalID: 4778353320197047259
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Sprite_anima\xE7\xE3o_bloco_ouro_quebrando_9"
+      rect:
+        serializedVersion: 2
+        x: 2271
+        y: 247
+        width: 74
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d6d00f3c058478070800000000000000
+      internalID: 8108529165825740141
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Sprite_anima\xE7\xE3o_bloco_ouro_quebrando_10"
+      rect:
+        serializedVersion: 2
+        x: 2719
+        y: 263
+        width: 42
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 864dbc1a561ed1440800000000000000
+      internalID: 4908326995526145128
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Sprite_anima\xE7\xE3o_bloco_ouro_quebrando_11"
+      rect:
+        serializedVersion: 2
+        x: 2767
+        y: 247
+        width: 42
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: eeca3968d4952d690800000000000000
+      internalID: -7578897033405944594
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Sprite_anima\xE7\xE3o_bloco_ouro_quebrando_12"
+      rect:
+        serializedVersion: 2
+        x: 1807
+        y: 191
+        width: 90
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 163bca10d6c57e0e0800000000000000
+      internalID: -2240720666344246431
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Sprite_anima\xE7\xE3o_bloco_ouro_quebrando_13"
+      rect:
+        serializedVersion: 2
+        x: 2303
+        y: 191
+        width: 66
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4881433692fba8e70800000000000000
+      internalID: 9118310580043913348
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Sprite_anima\xE7\xE3o_bloco_ouro_quebrando_14"
+      rect:
+        serializedVersion: 2
+        x: 2647
+        y: 215
+        width: 42
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 109ae97687289e120800000000000000
+      internalID: 2443627726471342337
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Sprite_anima\xE7\xE3o_bloco_ouro_quebrando_15"
+      rect:
+        serializedVersion: 2
+        x: 2791
+        y: 231
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e157b0035d74e0650800000000000000
+      internalID: 6200972717895415070
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Sprite_anima\xE7\xE3o_bloco_ouro_quebrando_16"
+      rect:
+        serializedVersion: 2
+        x: 1663
+        y: 135
+        width: 82
+        height: 82
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 819587dea4bce0f90800000000000000
+      internalID: -6985422449332954856
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Sprite_anima\xE7\xE3o_bloco_ouro_quebrando_17"
+      rect:
+        serializedVersion: 2
+        x: 1767
+        y: 119
+        width: 106
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 76bfda821e1d23aa0800000000000000
+      internalID: -6182648573445932185
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Sprite_anima\xE7\xE3o_bloco_ouro_quebrando_18"
+      rect:
+        serializedVersion: 2
+        x: 2183
+        y: 151
+        width: 58
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 38d0ec04921e27f80800000000000000
+      internalID: -8110172411643687549
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Sprite_anima\xE7\xE3o_bloco_ouro_quebrando_19"
+      rect:
+        serializedVersion: 2
+        x: 2255
+        y: 151
+        width: 74
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 781d74c6542da1ef0800000000000000
+      internalID: -136565643070156409
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Sprite_anima\xE7\xE3o_bloco_ouro_quebrando_20"
+      rect:
+        serializedVersion: 2
+        x: 2703
+        y: 175
+        width: 42
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4970d1ec4d6da7c00800000000000000
+      internalID: 899267285093255060
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Sprite_anima\xE7\xE3o_bloco_ouro_quebrando_21"
+      rect:
+        serializedVersion: 2
+        x: 2759
+        y: 175
+        width: 42
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 522f12fa6ea7e0db0800000000000000
+      internalID: -4823783019667918299
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Sprite_anima\xE7\xE3o_bloco_ouro_quebrando_22"
+      rect:
+        serializedVersion: 2
+        x: 2799
+        y: 191
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 89287e919081d83a0800000000000000
+      internalID: -6661641846442720616
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Sprite_anima\xE7\xE3o_bloco_ouro_quebrando_23"
+      rect:
+        serializedVersion: 2
+        x: 1583
+        y: 71
+        width: 66
+        height: 98
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b49e4df7656a00f10800000000000000
+      internalID: 2233968305617824075
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Sprite_anima\xE7\xE3o_bloco_ouro_quebrando_24"
+      rect:
+        serializedVersion: 2
+        x: 2103
+        y: 111
+        width: 50
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d6534de37a00747d0800000000000000
+      internalID: -2934375913894955667
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Sprite_anima\xE7\xE3o_bloco_ouro_quebrando_25"
+      rect:
+        serializedVersion: 2
+        x: 1815
+        y: 39
+        width: 74
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 14a3ad583518a3060800000000000000
+      internalID: 6933996772018240065
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Sprite_anima\xE7\xE3o_bloco_ouro_quebrando_26"
+      rect:
+        serializedVersion: 2
+        x: 2303
+        y: 71
+        width: 42
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cd8890f600caf0890800000000000000
+      internalID: -7489578537430972196
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      "Sprite_anima\xE7\xE3o_bloco_ouro_quebrando_0": 7927479391358106660
+      "Sprite_anima\xE7\xE3o_bloco_ouro_quebrando_1": -8871102168817119980
+      "Sprite_anima\xE7\xE3o_bloco_ouro_quebrando_10": 4908326995526145128
+      "Sprite_anima\xE7\xE3o_bloco_ouro_quebrando_11": -7578897033405944594
+      "Sprite_anima\xE7\xE3o_bloco_ouro_quebrando_12": -2240720666344246431
+      "Sprite_anima\xE7\xE3o_bloco_ouro_quebrando_13": 9118310580043913348
+      "Sprite_anima\xE7\xE3o_bloco_ouro_quebrando_14": 2443627726471342337
+      "Sprite_anima\xE7\xE3o_bloco_ouro_quebrando_15": 6200972717895415070
+      "Sprite_anima\xE7\xE3o_bloco_ouro_quebrando_16": -6985422449332954856
+      "Sprite_anima\xE7\xE3o_bloco_ouro_quebrando_17": -6182648573445932185
+      "Sprite_anima\xE7\xE3o_bloco_ouro_quebrando_18": -8110172411643687549
+      "Sprite_anima\xE7\xE3o_bloco_ouro_quebrando_19": -136565643070156409
+      "Sprite_anima\xE7\xE3o_bloco_ouro_quebrando_2": -952022202242442133
+      "Sprite_anima\xE7\xE3o_bloco_ouro_quebrando_20": 899267285093255060
+      "Sprite_anima\xE7\xE3o_bloco_ouro_quebrando_21": -4823783019667918299
+      "Sprite_anima\xE7\xE3o_bloco_ouro_quebrando_22": -6661641846442720616
+      "Sprite_anima\xE7\xE3o_bloco_ouro_quebrando_23": 2233968305617824075
+      "Sprite_anima\xE7\xE3o_bloco_ouro_quebrando_24": -2934375913894955667
+      "Sprite_anima\xE7\xE3o_bloco_ouro_quebrando_25": 6933996772018240065
+      "Sprite_anima\xE7\xE3o_bloco_ouro_quebrando_26": -7489578537430972196
+      "Sprite_anima\xE7\xE3o_bloco_ouro_quebrando_3": -2487523674749062361
+      "Sprite_anima\xE7\xE3o_bloco_ouro_quebrando_4": -2117251088405492680
+      "Sprite_anima\xE7\xE3o_bloco_ouro_quebrando_5": -648901827426069151
+      "Sprite_anima\xE7\xE3o_bloco_ouro_quebrando_6": 264541512739194615
+      "Sprite_anima\xE7\xE3o_bloco_ouro_quebrando_7": -6961372375426003428
+      "Sprite_anima\xE7\xE3o_bloco_ouro_quebrando_8": 4778353320197047259
+      "Sprite_anima\xE7\xE3o_bloco_ouro_quebrando_9": 8108529165825740141
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

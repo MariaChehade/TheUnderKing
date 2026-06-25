@@ -1,0 +1,832 @@
+fileFormatVersion: 2
+guid: 3269b4c13b1a4d44e9dac8d2005d1ae0
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -6559786334856695079
+    second: "Sprite_anima\xE7\xE3o_bloco_quebrando_0"
+  - first:
+      213: -3671745792053035331
+    second: "Sprite_anima\xE7\xE3o_bloco_quebrando_1"
+  - first:
+      213: 651523013364596876
+    second: "Sprite_anima\xE7\xE3o_bloco_quebrando_2"
+  - first:
+      213: 6422683916480980913
+    second: "Sprite_anima\xE7\xE3o_bloco_quebrando_3"
+  - first:
+      213: 8501919623113206058
+    second: "Sprite_anima\xE7\xE3o_bloco_quebrando_4"
+  - first:
+      213: 3042434769833556619
+    second: "Sprite_anima\xE7\xE3o_bloco_quebrando_5"
+  - first:
+      213: 840698739547670662
+    second: "Sprite_anima\xE7\xE3o_bloco_quebrando_6"
+  - first:
+      213: 4953296303255269820
+    second: "Sprite_anima\xE7\xE3o_bloco_quebrando_7"
+  - first:
+      213: 507068693523313945
+    second: "Sprite_anima\xE7\xE3o_bloco_quebrando_8"
+  - first:
+      213: -8752811937001625374
+    second: "Sprite_anima\xE7\xE3o_bloco_quebrando_9"
+  - first:
+      213: -3905266249315669018
+    second: "Sprite_anima\xE7\xE3o_bloco_quebrando_10"
+  - first:
+      213: -6403342269296503190
+    second: "Sprite_anima\xE7\xE3o_bloco_quebrando_11"
+  - first:
+      213: -3212727980381989113
+    second: "Sprite_anima\xE7\xE3o_bloco_quebrando_12"
+  - first:
+      213: 7202164370425340391
+    second: "Sprite_anima\xE7\xE3o_bloco_quebrando_13"
+  - first:
+      213: -3060256937708757353
+    second: "Sprite_anima\xE7\xE3o_bloco_quebrando_14"
+  - first:
+      213: -7780003559945946375
+    second: "Sprite_anima\xE7\xE3o_bloco_quebrando_15"
+  - first:
+      213: 2466150627684680129
+    second: "Sprite_anima\xE7\xE3o_bloco_quebrando_16"
+  - first:
+      213: -9163859349764433422
+    second: "Sprite_anima\xE7\xE3o_bloco_quebrando_17"
+  - first:
+      213: -394445829428481563
+    second: "Sprite_anima\xE7\xE3o_bloco_quebrando_18"
+  - first:
+      213: -2833598492934543994
+    second: "Sprite_anima\xE7\xE3o_bloco_quebrando_19"
+  - first:
+      213: 952590741674709831
+    second: "Sprite_anima\xE7\xE3o_bloco_quebrando_20"
+  - first:
+      213: 111126141586014975
+    second: "Sprite_anima\xE7\xE3o_bloco_quebrando_21"
+  - first:
+      213: -6083672532368077199
+    second: "Sprite_anima\xE7\xE3o_bloco_quebrando_22"
+  - first:
+      213: -2130030878855614081
+    second: "Sprite_anima\xE7\xE3o_bloco_quebrando_23"
+  - first:
+      213: 2166243041043027893
+    second: "Sprite_anima\xE7\xE3o_bloco_quebrando_24"
+  - first:
+      213: 122291058241332484
+    second: "Sprite_anima\xE7\xE3o_bloco_quebrando_25"
+  - first:
+      213: -4818524496125032377
+    second: "Sprite_anima\xE7\xE3o_bloco_quebrando_26"
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: "Sprite_anima\xE7\xE3o_bloco_quebrando_0"
+      rect:
+        serializedVersion: 2
+        x: 119
+        y: 103
+        width: 274
+        height: 274
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9d2b76c6515f6f4a0800000000000000
+      internalID: -6559786334856695079
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Sprite_anima\xE7\xE3o_bloco_quebrando_1"
+      rect:
+        serializedVersion: 2
+        x: 615
+        y: 103
+        width: 274
+        height: 274
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dbeb427e7a65b0dc0800000000000000
+      internalID: -3671745792053035331
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Sprite_anima\xE7\xE3o_bloco_quebrando_2"
+      rect:
+        serializedVersion: 2
+        x: 1111
+        y: 103
+        width: 274
+        height: 274
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c80c69e8abcaa0900800000000000000
+      internalID: 651523013364596876
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Sprite_anima\xE7\xE3o_bloco_quebrando_3"
+      rect:
+        serializedVersion: 2
+        x: 1599
+        y: 223
+        width: 98
+        height: 82
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1b7a6724ef4f12950800000000000000
+      internalID: 6422683916480980913
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Sprite_anima\xE7\xE3o_bloco_quebrando_4"
+      rect:
+        serializedVersion: 2
+        x: 1679
+        y: 263
+        width: 90
+        height: 106
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a29e5942ad2ecf570800000000000000
+      internalID: 8501919623113206058
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Sprite_anima\xE7\xE3o_bloco_quebrando_5"
+      rect:
+        serializedVersion: 2
+        x: 1775
+        y: 247
+        width: 114
+        height: 98
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b8af93cbd46e83a20800000000000000
+      internalID: 3042434769833556619
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Sprite_anima\xE7\xE3o_bloco_quebrando_6"
+      rect:
+        serializedVersion: 2
+        x: 2127
+        y: 223
+        width: 66
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6888bd5ac03caab00800000000000000
+      internalID: 840698739547670662
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Sprite_anima\xE7\xE3o_bloco_quebrando_7"
+      rect:
+        serializedVersion: 2
+        x: 2207
+        y: 263
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cb139ce7eb4adb440800000000000000
+      internalID: 4953296303255269820
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Sprite_anima\xE7\xE3o_bloco_quebrando_8"
+      rect:
+        serializedVersion: 2
+        x: 2215
+        y: 263
+        width: 50
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 915bd2a4a48790700800000000000000
+      internalID: 507068693523313945
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Sprite_anima\xE7\xE3o_bloco_quebrando_9"
+      rect:
+        serializedVersion: 2
+        x: 2271
+        y: 247
+        width: 74
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2e8283deae3c78680800000000000000
+      internalID: -8752811937001625374
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Sprite_anima\xE7\xE3o_bloco_quebrando_10"
+      rect:
+        serializedVersion: 2
+        x: 2719
+        y: 263
+        width: 42
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6eba7388905bdc9c0800000000000000
+      internalID: -3905266249315669018
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Sprite_anima\xE7\xE3o_bloco_quebrando_11"
+      rect:
+        serializedVersion: 2
+        x: 2767
+        y: 247
+        width: 42
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a669657e122c227a0800000000000000
+      internalID: -6403342269296503190
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Sprite_anima\xE7\xE3o_bloco_quebrando_12"
+      rect:
+        serializedVersion: 2
+        x: 1807
+        y: 191
+        width: 90
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7079f517ce81a63d0800000000000000
+      internalID: -3212727980381989113
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Sprite_anima\xE7\xE3o_bloco_quebrando_13"
+      rect:
+        serializedVersion: 2
+        x: 2303
+        y: 191
+        width: 66
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7e16d21165a33f360800000000000000
+      internalID: 7202164370425340391
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Sprite_anima\xE7\xE3o_bloco_quebrando_14"
+      rect:
+        serializedVersion: 2
+        x: 2647
+        y: 215
+        width: 42
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 79ed1727788c785d0800000000000000
+      internalID: -3060256937708757353
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Sprite_anima\xE7\xE3o_bloco_quebrando_15"
+      rect:
+        serializedVersion: 2
+        x: 2791
+        y: 231
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9fab5228bffd70490800000000000000
+      internalID: -7780003559945946375
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Sprite_anima\xE7\xE3o_bloco_quebrando_16"
+      rect:
+        serializedVersion: 2
+        x: 1663
+        y: 135
+        width: 82
+        height: 82
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1c180cdfde6893220800000000000000
+      internalID: 2466150627684680129
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Sprite_anima\xE7\xE3o_bloco_quebrando_17"
+      rect:
+        serializedVersion: 2
+        x: 1767
+        y: 119
+        width: 106
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2f916ad397e63d080800000000000000
+      internalID: -9163859349764433422
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Sprite_anima\xE7\xE3o_bloco_quebrando_18"
+      rect:
+        serializedVersion: 2
+        x: 2183
+        y: 151
+        width: 58
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5e1f7c5ab95a68af0800000000000000
+      internalID: -394445829428481563
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Sprite_anima\xE7\xE3o_bloco_quebrando_19"
+      rect:
+        serializedVersion: 2
+        x: 2255
+        y: 151
+        width: 74
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 685ed880f290da8d0800000000000000
+      internalID: -2833598492934543994
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Sprite_anima\xE7\xE3o_bloco_quebrando_20"
+      rect:
+        serializedVersion: 2
+        x: 2703
+        y: 175
+        width: 42
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 743d8d58b38483d00800000000000000
+      internalID: 952590741674709831
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Sprite_anima\xE7\xE3o_bloco_quebrando_21"
+      rect:
+        serializedVersion: 2
+        x: 2759
+        y: 175
+        width: 42
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ff28e7213acca8100800000000000000
+      internalID: 111126141586014975
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Sprite_anima\xE7\xE3o_bloco_quebrando_22"
+      rect:
+        serializedVersion: 2
+        x: 2799
+        y: 191
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 17e46628014729ba0800000000000000
+      internalID: -6083672532368077199
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Sprite_anima\xE7\xE3o_bloco_quebrando_23"
+      rect:
+        serializedVersion: 2
+        x: 1583
+        y: 71
+        width: 66
+        height: 98
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f71b239733c9072e0800000000000000
+      internalID: -2130030878855614081
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Sprite_anima\xE7\xE3o_bloco_quebrando_24"
+      rect:
+        serializedVersion: 2
+        x: 2103
+        y: 111
+        width: 50
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5b7188e819a001e10800000000000000
+      internalID: 2166243041043027893
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Sprite_anima\xE7\xE3o_bloco_quebrando_25"
+      rect:
+        serializedVersion: 2
+        x: 1815
+        y: 39
+        width: 74
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4056eadc11772b100800000000000000
+      internalID: 122291058241332484
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Sprite_anima\xE7\xE3o_bloco_quebrando_26"
+      rect:
+        serializedVersion: 2
+        x: 2303
+        y: 71
+        width: 42
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 74803fa1089212db0800000000000000
+      internalID: -4818524496125032377
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      "Sprite_anima\xE7\xE3o_bloco_quebrando_0": -6559786334856695079
+      "Sprite_anima\xE7\xE3o_bloco_quebrando_1": -3671745792053035331
+      "Sprite_anima\xE7\xE3o_bloco_quebrando_10": -3905266249315669018
+      "Sprite_anima\xE7\xE3o_bloco_quebrando_11": -6403342269296503190
+      "Sprite_anima\xE7\xE3o_bloco_quebrando_12": -3212727980381989113
+      "Sprite_anima\xE7\xE3o_bloco_quebrando_13": 7202164370425340391
+      "Sprite_anima\xE7\xE3o_bloco_quebrando_14": -3060256937708757353
+      "Sprite_anima\xE7\xE3o_bloco_quebrando_15": -7780003559945946375
+      "Sprite_anima\xE7\xE3o_bloco_quebrando_16": 2466150627684680129
+      "Sprite_anima\xE7\xE3o_bloco_quebrando_17": -9163859349764433422
+      "Sprite_anima\xE7\xE3o_bloco_quebrando_18": -394445829428481563
+      "Sprite_anima\xE7\xE3o_bloco_quebrando_19": -2833598492934543994
+      "Sprite_anima\xE7\xE3o_bloco_quebrando_2": 651523013364596876
+      "Sprite_anima\xE7\xE3o_bloco_quebrando_20": 952590741674709831
+      "Sprite_anima\xE7\xE3o_bloco_quebrando_21": 111126141586014975
+      "Sprite_anima\xE7\xE3o_bloco_quebrando_22": -6083672532368077199
+      "Sprite_anima\xE7\xE3o_bloco_quebrando_23": -2130030878855614081
+      "Sprite_anima\xE7\xE3o_bloco_quebrando_24": 2166243041043027893
+      "Sprite_anima\xE7\xE3o_bloco_quebrando_25": 122291058241332484
+      "Sprite_anima\xE7\xE3o_bloco_quebrando_26": -4818524496125032377
+      "Sprite_anima\xE7\xE3o_bloco_quebrando_3": 6422683916480980913
+      "Sprite_anima\xE7\xE3o_bloco_quebrando_4": 8501919623113206058
+      "Sprite_anima\xE7\xE3o_bloco_quebrando_5": 3042434769833556619
+      "Sprite_anima\xE7\xE3o_bloco_quebrando_6": 840698739547670662
+      "Sprite_anima\xE7\xE3o_bloco_quebrando_7": 4953296303255269820
+      "Sprite_anima\xE7\xE3o_bloco_quebrando_8": 507068693523313945
+      "Sprite_anima\xE7\xE3o_bloco_quebrando_9": -8752811937001625374
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

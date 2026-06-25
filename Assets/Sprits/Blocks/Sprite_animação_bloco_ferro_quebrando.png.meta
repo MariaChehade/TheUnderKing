@@ -1,0 +1,832 @@
+fileFormatVersion: 2
+guid: 91fe44a662a26e24086ae6f3cd4dcb4d
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 7902727671516038338
+    second: "Sprite_anima\xE7\xE3o_bloco_ferro_quebrando_0"
+  - first:
+      213: -2783244622384513518
+    second: "Sprite_anima\xE7\xE3o_bloco_ferro_quebrando_1"
+  - first:
+      213: -4548269366372018332
+    second: "Sprite_anima\xE7\xE3o_bloco_ferro_quebrando_2"
+  - first:
+      213: 7628215651723564426
+    second: "Sprite_anima\xE7\xE3o_bloco_ferro_quebrando_3"
+  - first:
+      213: -9094245365361931787
+    second: "Sprite_anima\xE7\xE3o_bloco_ferro_quebrando_4"
+  - first:
+      213: -520353805111943352
+    second: "Sprite_anima\xE7\xE3o_bloco_ferro_quebrando_5"
+  - first:
+      213: 7620047320695267344
+    second: "Sprite_anima\xE7\xE3o_bloco_ferro_quebrando_6"
+  - first:
+      213: 7149464482468869680
+    second: "Sprite_anima\xE7\xE3o_bloco_ferro_quebrando_7"
+  - first:
+      213: 4902892903051473754
+    second: "Sprite_anima\xE7\xE3o_bloco_ferro_quebrando_8"
+  - first:
+      213: -4378999353202770281
+    second: "Sprite_anima\xE7\xE3o_bloco_ferro_quebrando_9"
+  - first:
+      213: 7229059159644568721
+    second: "Sprite_anima\xE7\xE3o_bloco_ferro_quebrando_10"
+  - first:
+      213: 3711432160953436285
+    second: "Sprite_anima\xE7\xE3o_bloco_ferro_quebrando_11"
+  - first:
+      213: -6482446148838738862
+    second: "Sprite_anima\xE7\xE3o_bloco_ferro_quebrando_12"
+  - first:
+      213: -2666041204920067576
+    second: "Sprite_anima\xE7\xE3o_bloco_ferro_quebrando_13"
+  - first:
+      213: 8180988179190698180
+    second: "Sprite_anima\xE7\xE3o_bloco_ferro_quebrando_14"
+  - first:
+      213: -5317763954711531519
+    second: "Sprite_anima\xE7\xE3o_bloco_ferro_quebrando_15"
+  - first:
+      213: -1239073518108733043
+    second: "Sprite_anima\xE7\xE3o_bloco_ferro_quebrando_16"
+  - first:
+      213: -8235844080554640639
+    second: "Sprite_anima\xE7\xE3o_bloco_ferro_quebrando_17"
+  - first:
+      213: 6480698505171520626
+    second: "Sprite_anima\xE7\xE3o_bloco_ferro_quebrando_18"
+  - first:
+      213: 8713952433742383642
+    second: "Sprite_anima\xE7\xE3o_bloco_ferro_quebrando_19"
+  - first:
+      213: 6060584121283785579
+    second: "Sprite_anima\xE7\xE3o_bloco_ferro_quebrando_20"
+  - first:
+      213: 2946701138866812311
+    second: "Sprite_anima\xE7\xE3o_bloco_ferro_quebrando_21"
+  - first:
+      213: -7191929180565549456
+    second: "Sprite_anima\xE7\xE3o_bloco_ferro_quebrando_22"
+  - first:
+      213: 152092763250225976
+    second: "Sprite_anima\xE7\xE3o_bloco_ferro_quebrando_23"
+  - first:
+      213: -296621425250129324
+    second: "Sprite_anima\xE7\xE3o_bloco_ferro_quebrando_24"
+  - first:
+      213: -4591695190557410508
+    second: "Sprite_anima\xE7\xE3o_bloco_ferro_quebrando_25"
+  - first:
+      213: -5098227489757710800
+    second: "Sprite_anima\xE7\xE3o_bloco_ferro_quebrando_26"
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: "Sprite_anima\xE7\xE3o_bloco_ferro_quebrando_0"
+      rect:
+        serializedVersion: 2
+        x: 119
+        y: 103
+        width: 274
+        height: 274
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2c40d5162f02cad60800000000000000
+      internalID: 7902727671516038338
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Sprite_anima\xE7\xE3o_bloco_ferro_quebrando_1"
+      rect:
+        serializedVersion: 2
+        x: 615
+        y: 103
+        width: 274
+        height: 274
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 21e31cf13cdef59d0800000000000000
+      internalID: -2783244622384513518
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Sprite_anima\xE7\xE3o_bloco_ferro_quebrando_2"
+      rect:
+        serializedVersion: 2
+        x: 1111
+        y: 103
+        width: 274
+        height: 274
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 467da9aeb1d41e0c0800000000000000
+      internalID: -4548269366372018332
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Sprite_anima\xE7\xE3o_bloco_ferro_quebrando_3"
+      rect:
+        serializedVersion: 2
+        x: 1599
+        y: 223
+        width: 98
+        height: 82
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a85de0f18bddcd960800000000000000
+      internalID: 7628215651723564426
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Sprite_anima\xE7\xE3o_bloco_ferro_quebrando_4"
+      rect:
+        serializedVersion: 2
+        x: 1679
+        y: 263
+        width: 90
+        height: 106
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5f90c590600cac180800000000000000
+      internalID: -9094245365361931787
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Sprite_anima\xE7\xE3o_bloco_ferro_quebrando_5"
+      rect:
+        serializedVersion: 2
+        x: 1775
+        y: 247
+        width: 114
+        height: 98
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 84f97c0a8f457c8f0800000000000000
+      internalID: -520353805111943352
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Sprite_anima\xE7\xE3o_bloco_ferro_quebrando_6"
+      rect:
+        serializedVersion: 2
+        x: 2127
+        y: 223
+        width: 66
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 01065b95aa8dfb960800000000000000
+      internalID: 7620047320695267344
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Sprite_anima\xE7\xE3o_bloco_ferro_quebrando_7"
+      rect:
+        serializedVersion: 2
+        x: 2207
+        y: 263
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 03634db3110083360800000000000000
+      internalID: 7149464482468869680
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Sprite_anima\xE7\xE3o_bloco_ferro_quebrando_8"
+      rect:
+        serializedVersion: 2
+        x: 2215
+        y: 263
+        width: 50
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a53ba226e139a0440800000000000000
+      internalID: 4902892903051473754
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Sprite_anima\xE7\xE3o_bloco_ferro_quebrando_9"
+      rect:
+        serializedVersion: 2
+        x: 2271
+        y: 247
+        width: 74
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 79efea80a4baa33c0800000000000000
+      internalID: -4378999353202770281
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Sprite_anima\xE7\xE3o_bloco_ferro_quebrando_10"
+      rect:
+        serializedVersion: 2
+        x: 2719
+        y: 263
+        width: 42
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 19cf5e62107c25460800000000000000
+      internalID: 7229059159644568721
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Sprite_anima\xE7\xE3o_bloco_ferro_quebrando_11"
+      rect:
+        serializedVersion: 2
+        x: 2767
+        y: 247
+        width: 42
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d780799e2e7a18330800000000000000
+      internalID: 3711432160953436285
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Sprite_anima\xE7\xE3o_bloco_ferro_quebrando_12"
+      rect:
+        serializedVersion: 2
+        x: 1807
+        y: 191
+        width: 90
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2543ed6b299b906a0800000000000000
+      internalID: -6482446148838738862
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Sprite_anima\xE7\xE3o_bloco_ferro_quebrando_13"
+      rect:
+        serializedVersion: 2
+        x: 2303
+        y: 191
+        width: 66
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 80a5f2046a1500bd0800000000000000
+      internalID: -2666041204920067576
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Sprite_anima\xE7\xE3o_bloco_ferro_quebrando_14"
+      rect:
+        serializedVersion: 2
+        x: 2647
+        y: 215
+        width: 42
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4c0d45c7765b88170800000000000000
+      internalID: 8180988179190698180
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Sprite_anima\xE7\xE3o_bloco_ferro_quebrando_15"
+      rect:
+        serializedVersion: 2
+        x: 2791
+        y: 231
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 100fa00abd18336b0800000000000000
+      internalID: -5317763954711531519
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Sprite_anima\xE7\xE3o_bloco_ferro_quebrando_16"
+      rect:
+        serializedVersion: 2
+        x: 1663
+        y: 135
+        width: 82
+        height: 82
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d81198e333dedcee0800000000000000
+      internalID: -1239073518108733043
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Sprite_anima\xE7\xE3o_bloco_ferro_quebrando_17"
+      rect:
+        serializedVersion: 2
+        x: 1767
+        y: 119
+        width: 106
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 10b7901b17764bd80800000000000000
+      internalID: -8235844080554640639
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Sprite_anima\xE7\xE3o_bloco_ferro_quebrando_18"
+      rect:
+        serializedVersion: 2
+        x: 2183
+        y: 151
+        width: 58
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 27c472944f010f950800000000000000
+      internalID: 6480698505171520626
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Sprite_anima\xE7\xE3o_bloco_ferro_quebrando_19"
+      rect:
+        serializedVersion: 2
+        x: 2255
+        y: 151
+        width: 74
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a1a8ddae19d2ee870800000000000000
+      internalID: 8713952433742383642
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Sprite_anima\xE7\xE3o_bloco_ferro_quebrando_20"
+      rect:
+        serializedVersion: 2
+        x: 2703
+        y: 175
+        width: 42
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b633e70e5258b1450800000000000000
+      internalID: 6060584121283785579
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Sprite_anima\xE7\xE3o_bloco_ferro_quebrando_21"
+      rect:
+        serializedVersion: 2
+        x: 2759
+        y: 175
+        width: 42
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7953561d219c4e820800000000000000
+      internalID: 2946701138866812311
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Sprite_anima\xE7\xE3o_bloco_ferro_quebrando_22"
+      rect:
+        serializedVersion: 2
+        x: 2799
+        y: 191
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 07ecf96c382213c90800000000000000
+      internalID: -7191929180565549456
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Sprite_anima\xE7\xE3o_bloco_ferro_quebrando_23"
+      rect:
+        serializedVersion: 2
+        x: 1583
+        y: 71
+        width: 66
+        height: 98
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 833ff66ff875c1200800000000000000
+      internalID: 152092763250225976
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Sprite_anima\xE7\xE3o_bloco_ferro_quebrando_24"
+      rect:
+        serializedVersion: 2
+        x: 2103
+        y: 111
+        width: 50
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 45a2233a26032ebf0800000000000000
+      internalID: -296621425250129324
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Sprite_anima\xE7\xE3o_bloco_ferro_quebrando_25"
+      rect:
+        serializedVersion: 2
+        x: 1815
+        y: 39
+        width: 74
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 43bb4f15d850740c0800000000000000
+      internalID: -4591695190557410508
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Sprite_anima\xE7\xE3o_bloco_ferro_quebrando_26"
+      rect:
+        serializedVersion: 2
+        x: 2303
+        y: 71
+        width: 42
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0363cd01c157f39b0800000000000000
+      internalID: -5098227489757710800
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      "Sprite_anima\xE7\xE3o_bloco_ferro_quebrando_0": 7902727671516038338
+      "Sprite_anima\xE7\xE3o_bloco_ferro_quebrando_1": -2783244622384513518
+      "Sprite_anima\xE7\xE3o_bloco_ferro_quebrando_10": 7229059159644568721
+      "Sprite_anima\xE7\xE3o_bloco_ferro_quebrando_11": 3711432160953436285
+      "Sprite_anima\xE7\xE3o_bloco_ferro_quebrando_12": -6482446148838738862
+      "Sprite_anima\xE7\xE3o_bloco_ferro_quebrando_13": -2666041204920067576
+      "Sprite_anima\xE7\xE3o_bloco_ferro_quebrando_14": 8180988179190698180
+      "Sprite_anima\xE7\xE3o_bloco_ferro_quebrando_15": -5317763954711531519
+      "Sprite_anima\xE7\xE3o_bloco_ferro_quebrando_16": -1239073518108733043
+      "Sprite_anima\xE7\xE3o_bloco_ferro_quebrando_17": -8235844080554640639
+      "Sprite_anima\xE7\xE3o_bloco_ferro_quebrando_18": 6480698505171520626
+      "Sprite_anima\xE7\xE3o_bloco_ferro_quebrando_19": 8713952433742383642
+      "Sprite_anima\xE7\xE3o_bloco_ferro_quebrando_2": -4548269366372018332
+      "Sprite_anima\xE7\xE3o_bloco_ferro_quebrando_20": 6060584121283785579
+      "Sprite_anima\xE7\xE3o_bloco_ferro_quebrando_21": 2946701138866812311
+      "Sprite_anima\xE7\xE3o_bloco_ferro_quebrando_22": -7191929180565549456
+      "Sprite_anima\xE7\xE3o_bloco_ferro_quebrando_23": 152092763250225976
+      "Sprite_anima\xE7\xE3o_bloco_ferro_quebrando_24": -296621425250129324
+      "Sprite_anima\xE7\xE3o_bloco_ferro_quebrando_25": -4591695190557410508
+      "Sprite_anima\xE7\xE3o_bloco_ferro_quebrando_26": -5098227489757710800
+      "Sprite_anima\xE7\xE3o_bloco_ferro_quebrando_3": 7628215651723564426
+      "Sprite_anima\xE7\xE3o_bloco_ferro_quebrando_4": -9094245365361931787
+      "Sprite_anima\xE7\xE3o_bloco_ferro_quebrando_5": -520353805111943352
+      "Sprite_anima\xE7\xE3o_bloco_ferro_quebrando_6": 7620047320695267344
+      "Sprite_anima\xE7\xE3o_bloco_ferro_quebrando_7": 7149464482468869680
+      "Sprite_anima\xE7\xE3o_bloco_ferro_quebrando_8": 4902892903051473754
+      "Sprite_anima\xE7\xE3o_bloco_ferro_quebrando_9": -4378999353202770281
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

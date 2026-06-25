@@ -152,8 +152,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Block
   blockType: 1
-  maxHealth: 2
-  fullSprite: {fileID: 126053327, guid: 067aea85956c723438c5a2cec046a087, type: 3}
-  damagedSprite: {fileID: 299366792, guid: 067aea85956c723438c5a2cec046a087, type: 3}
+  maxHealth: 3
+  fullSprite: {fileID: -6559786334856695079, guid: a3c67ea6e5592f34d91b928b9314e7b3, type: 3}
+  damagedSprite: {fileID: -3671745792053035331, guid: a3c67ea6e5592f34d91b928b9314e7b3, type: 3}
   state2Threshold: 1
   dropPrefab: {fileID: 7826308228925327099, guid: aeef0813d0386234cb211f74f772dbb5, type: 3}
+  blockScale: 1.1
