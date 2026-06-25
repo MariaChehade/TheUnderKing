@@ -17,6 +17,18 @@
     margin-bottom: 8px;
 }
 
+/* Linha horizontal: painéis lado a lado */
+.hud-row {
+    flex-direction: row;
+    align-items: flex-end;
+    margin-bottom: 8px;
+}
+
+.hud-row > .hud-panel {
+    margin-bottom: 0;
+    margin-left: 6px;
+}
+
 /* Fundo estilo Kenney: 9-slice do panel-000 */
 .kenney-panel {
     background-image: url("project://database/Assets/UI/kenney_fantasy-ui-borders/PNG/Default/Panel/panel-000.png?fileID=2800000&guid=df6150e2f963ccc43b1f5938a30edfff&type=3#panel-000");
@@ -100,4 +112,23 @@
 
 .bar-fill--health--low {
     background-color: #cc3333;
+}
+
+/* ── Noite atual ──────────────────────────────── */
+.night-label {
+    font-size: 20px;
+    color: #e888a5;
+    -unity-font-style: bold;
+    letter-spacing: 3px;
+    -unity-text-outline-width: 1px;
+    -unity-text-outline-color: #3b0d20;
+    transition-duration: 0.3s;
+}
+
+/* A cada 5 noites (boss night): vermelho pulsante */
+.night-label--boss {
+    color: #ff3030;
+    -unity-text-outline-color: #6b0000;
+    font-size: 22px;
+    transition-duration: 0.3s;
 }

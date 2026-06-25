@@ -1,18 +1,27 @@
 <ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" xsi="http://www.w3.org/2001/XMLSchema-instance" engine="UnityEngine.UIElements" editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
     <Style src="project://database/Assets/UI/HUD.uss?fileID=7433441132597879392&amp;guid=4ddfc842c9959594991a62e68a0e8b03&amp;type=3#HUD"/>
     <ui:VisualElement name="HUDRoot" class="hud-root">
-        <ui:VisualElement name="TimePanel" class="hud-panel">
-            <ui:VisualElement name="TimePanelBg" class="kenney-panel" style="background-image: url(&quot;project://database/Assets/UI/20251126darkDwellers_v_1_0/20251029darkDwellers9SlicesA.png?fileID=2800000&amp;guid=a460b777104fbc040be4abfd60792bf6&amp;type=3#20251029darkDwellers9SlicesA&quot;);">
-                <ui:VisualElement name="TimeContent" class="panel-content">
-                    <ui:Label name="PhaseLabel" text="☀ DIA" class="phase-label phase-day"/>
-                    <ui:Label name="TimeLabel" text="0:30" class="time-label"/>
-                    <ui:VisualElement name="TimeBarBg" class="bar-bg">
-                        <ui:VisualElement name="TimeBar" class="bar-fill bar-fill--time"/>
+        <ui:VisualElement name="TopRow" class="hud-row" style="align-items: stretch;">
+            <ui:VisualElement name="NightPanel" class="hud-panel">
+                <ui:VisualElement name="NightPanelBg" class="kenney-panel" style="background-image: url(&quot;project://database/Assets/UI/20251126darkDwellers_v_1_0/20251029darkDwellers9SlicesA.png?fileID=2800000&amp;guid=a460b777104fbc040be4abfd60792bf6&amp;type=3#20251029darkDwellers9SlicesA&quot;);">
+                    <ui:VisualElement name="NightContent" class="panel-content">
+                        <ui:Label name="NightLabel" text="NOITE 1" class="night-label"/>
+                    </ui:VisualElement>
+                </ui:VisualElement>
+            </ui:VisualElement>
+            <ui:VisualElement name="TimePanel" class="hud-panel">
+                <ui:VisualElement name="TimePanelBg" class="kenney-panel" style="background-image: url(&quot;project://database/Assets/UI/20251126darkDwellers_v_1_0/20251029darkDwellers9SlicesA.png?fileID=2800000&amp;guid=a460b777104fbc040be4abfd60792bf6&amp;type=3#20251029darkDwellers9SlicesA&quot;);">
+                    <ui:VisualElement name="TimeContent" class="panel-content">
+                        <ui:Label name="PhaseLabel" text="☀ DIA" class="phase-label phase-day"/>
+                        <ui:Label name="TimeLabel" text="0:30" class="time-label"/>
+                        <ui:VisualElement name="TimeBarBg" class="bar-bg">
+                            <ui:VisualElement name="TimeBar" class="bar-fill bar-fill--time"/>
+                        </ui:VisualElement>
                     </ui:VisualElement>
                 </ui:VisualElement>
             </ui:VisualElement>
         </ui:VisualElement>
-        <ui:VisualElement name="CastlePanel" class="hud-panel" style="background-image: none;">
+        <ui:VisualElement name="CastlePanel" class="hud-panel">
             <ui:VisualElement name="CastlePanelBg" class="kenney-panel" style="background-image: url(&quot;project://database/Assets/UI/20251126darkDwellers_v_1_0/20251029darkDwellers9SlicesA.png?fileID=2800000&amp;guid=a460b777104fbc040be4abfd60792bf6&amp;type=3#20251029darkDwellers9SlicesA&quot;);">
                 <ui:VisualElement name="CastleContent" class="panel-content">
                     <ui:Label name="CastleTitle" text="🏰 CASTELO" class="phase-label"/>

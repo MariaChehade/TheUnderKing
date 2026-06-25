@@ -13,8 +13,11 @@ public class HUDController : MonoBehaviour
     [Header("Referências de jogo")]
     [SerializeField] private TimeController timeController;
     [SerializeField] private Castle castle;
+    [SerializeField] private LevelControll levelControll;
 
     // ── Elementos do HUD ──────────────────────────────────────
+    private Label _nightLabel;
+
     private Label _phaseLabel;
     private Label _timeLabel;
     private VisualElement _timeBar;
@@ -35,6 +38,9 @@ public class HUDController : MonoBehaviour
     private const string CLASS_HP_MED    = "bar-fill--health--medium";
     private const string CLASS_HP_LOW    = "bar-fill--health--low";
 
+    private const string CLASS_NIGHT_NORMAL = "night-label";
+    private const string CLASS_NIGHT_BOSS   = "night-label--boss";
+
     private void Awake()
     {
         _document = GetComponent<UIDocument>();
@@ -45,6 +51,8 @@ public class HUDController : MonoBehaviour
         }
 
         var root = _document.rootVisualElement;
+
+        _nightLabel    = root.Q<Label>("NightLabel");
 
         _phaseLabel   = root.Q<Label>("PhaseLabel");
         _timeLabel    = root.Q<Label>("TimeLabel");
@@ -62,12 +70,30 @@ public class HUDController : MonoBehaviour
 
         if (castle == null)
             castle = FindFirstObjectByType<Castle>();
+
+        if (levelControll == null)
+            levelControll = FindFirstObjectByType<LevelControll>();
     }
 
     private void Update()
     {
+        UpdateNightPanel();
         UpdateTimePanel();
         UpdateCastlePanel();
+    }
+
+    // ── Noite ─────────────────────────────────────────────────
+
+    private void UpdateNightPanel()
+    {
+        if (_nightLabel == null || levelControll == null) return;
+
+        int night = levelControll.CurrentNight;
+        bool isBossNight = (night % 5 == 0);
+
+        _nightLabel.text = $"NOITE  {night}";
+        _nightLabel.EnableInClassList(CLASS_NIGHT_BOSS,   isBossNight);
+        _nightLabel.EnableInClassList(CLASS_NIGHT_NORMAL, !isBossNight);
     }
 
     // ── Tempo ─────────────────────────────────────────────────
