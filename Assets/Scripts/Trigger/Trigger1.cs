@@ -37,4 +37,20 @@ public class Trigger1 : MonoBehaviour
         cameraAtivar.SetActive(true);
         cameraDesativar.SetActive(false);
     }
+    
+    void OnTriggerEnter(Collider other)
+    {
+        if (other.CompareTag("Player"))
+        {
+            AudioManager.instance.EntrarNaCaverna();
+        }
+    }
+
+    void OnTriggerExit(Collider other)
+    {
+        if (other.CompareTag("Player"))
+        {
+            AudioManager.instance.SairDaCaverna();
+        }
+    }
 }
