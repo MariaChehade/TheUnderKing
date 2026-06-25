@@ -1,7 +1,11 @@
+using System;
 using UnityEngine;
 
 public class Block : MonoBehaviour
 {
+    /// <summary>Disparado sempre que um bloco é destruído pelo player.</summary>
+    public static event Action<BlockType> OnBlockBroken;
+
     public BlockType blockType;
 
     public int maxHealth;
@@ -134,6 +138,8 @@ public class Block : MonoBehaviour
     private void BreakBlock()
     {
         Debug.Log($"{blockType} QUEBROU");
+
+        OnBlockBroken?.Invoke(blockType);
 
         if (dropPrefab != null)
         {

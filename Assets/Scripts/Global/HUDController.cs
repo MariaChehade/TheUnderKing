@@ -25,6 +25,12 @@ public class HUDController : MonoBehaviour
     private Label _castleHPLabel;
     private VisualElement _castleBar;
 
+    private Label _stoneCountLabel;
+    private Label _diamondCountLabel;
+
+    private int _stoneBroken;
+    private int _diamondBroken;
+
     private UIDocument _document;
 
     // ── Cores / classes por estado ────────────────────────────
@@ -60,6 +66,9 @@ public class HUDController : MonoBehaviour
 
         _castleHPLabel = root.Q<Label>("CastleHPLabel");
         _castleBar     = root.Q<VisualElement>("CastleBar");
+
+        _stoneCountLabel   = root.Q<Label>("StoneCount");
+        _diamondCountLabel = root.Q<Label>("DiamondCount");
     }
 
     private void Start()
@@ -75,11 +84,23 @@ public class HUDController : MonoBehaviour
             levelControll = FindFirstObjectByType<LevelControll>();
     }
 
+    private void OnEnable()  => Block.OnBlockBroken += OnBlockBroken;
+    private void OnDisable() => Block.OnBlockBroken -= OnBlockBroken;
+
+    private void OnBlockBroken(BlockType type)
+    {
+        if (type == BlockType.Diamond)
+            _diamondBroken++;
+        else
+            _stoneBroken++;
+    }
+
     private void Update()
     {
         UpdateNightPanel();
         UpdateTimePanel();
         UpdateCastlePanel();
+        UpdateMiningPanel();
     }
 
     // ── Noite ─────────────────────────────────────────────────
@@ -159,5 +180,16 @@ public class HUDController : MonoBehaviour
             _castleBar.EnableInClassList(CLASS_HP_MED,  isMed);
             _castleBar.EnableInClassList(CLASS_HP_LOW,  isLow);
         }
+    }
+
+    // ── Mineração ─────────────────────────────────────────────
+
+    private void UpdateMiningPanel()
+    {
+        if (_stoneCountLabel != null)
+            _stoneCountLabel.text = _stoneBroken.ToString();
+
+        if (_diamondCountLabel != null)
+            _diamondCountLabel.text = _diamondBroken.ToString();
     }
 }

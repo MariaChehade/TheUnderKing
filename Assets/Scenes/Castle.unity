@@ -6614,7 +6614,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8d12755649ae04040a14d8a3d735e2aa, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Castle
-  maxHealth: 2
+  maxHealth: 200
 --- !u!61 &1550437004
 BoxCollider2D:
   m_ObjectHideFlags: 0

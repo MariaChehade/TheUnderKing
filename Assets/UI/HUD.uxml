@@ -32,5 +32,23 @@
                 </ui:VisualElement>
             </ui:VisualElement>
         </ui:VisualElement>
+        <ui:VisualElement name="MiningPanel" class="hud-panel">
+            <ui:VisualElement name="MiningPanelBg" class="kenney-panel" style="background-image: url(&quot;project://database/Assets/UI/20251126darkDwellers_v_1_0/20251029darkDwellers9SlicesA.png?fileID=2800000&amp;guid=a460b777104fbc040be4abfd60792bf6&amp;type=3#20251029darkDwellers9SlicesA&quot;);">
+                <ui:VisualElement name="MiningContent" class="panel-content">
+                    <ui:Label name="MiningTitle" text="⛏ MINERAÇÃO" class="phase-label"/>
+                    <ui:VisualElement name="MiningRow" class="mining-row">
+                        <ui:VisualElement name="StoneCol" class="mining-col">
+                            <ui:Label name="StoneIcon"  text="🪨" class="mining-icon"/>
+                            <ui:Label name="StoneCount" text="0"  class="mining-count"/>
+                        </ui:VisualElement>
+                        <ui:VisualElement name="DiamondCol" class="mining-col">
+                            <ui:Label name="DiamondIcon"  text="💎" class="mining-icon"/>
+                            <ui:Label name="DiamondCount" text="0"  class="mining-count mining-count--diamond"/>
+                        </ui:VisualElement>
+                    </ui:VisualElement>
+                </ui:VisualElement>
+            </ui:VisualElement>
+        </ui:VisualElement>
     </ui:VisualElement>
 </ui:UXML>
+

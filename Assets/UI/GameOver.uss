@@ -1,9 +1,10 @@
-﻿/* =====================================================
+/* =====================================================
    GameOver.uss  —  Tela de Game Over (The Under King)
    ===================================================== */
 
 /* Overlay escuro cobrindo toda a tela */
 .gameover-overlay {
+    display: none;          /* oculto por padrão; o script ativa via DisplayStyle.Flex */
     flex-grow: 1;
     align-items: center;
     justify-content: center;

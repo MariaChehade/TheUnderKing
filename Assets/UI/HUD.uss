@@ -132,3 +132,36 @@
     font-size: 22px;
     transition-duration: 0.3s;
 }
+
+/* ── Painel de Mineração ──────────────────────── */
+.mining-row {
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 4px;
+}
+
+.mining-col {
+    align-items: center;
+    margin-left: 12px;
+    margin-right: 12px;
+}
+
+.mining-icon {
+    font-size: 22px;
+    -unity-text-align: middle-center;
+    margin-bottom: 2px;
+}
+
+.mining-count {
+    font-size: 20px;
+    color: #ffffff;
+    -unity-font-style: bold;
+    -unity-text-outline-width: 1px;
+    -unity-text-outline-color: #3b0d20;
+    -unity-text-align: middle-center;
+}
+
+.mining-count--diamond {
+    color: #7cf0f0;
+    -unity-text-outline-color: #0a3030;
+}
