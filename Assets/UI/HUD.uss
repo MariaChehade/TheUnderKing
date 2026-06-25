@@ -1,0 +1,103 @@
+/* =====================================================
+   HUD.uss  —  Heads-Up Display  (The Under King)
+   Pixel-art style com assets Kenney Fantasy UI Borders
+   ===================================================== */
+
+/* Âncora no canto superior direito */
+.hud-root {
+    position: absolute;
+    top: 12px;
+    right: 12px;
+    flex-direction: column;
+    align-items: flex-end;
+}
+
+/* Cada bloco do HUD */
+.hud-panel {
+    margin-bottom: 8px;
+}
+
+/* Fundo estilo Kenney: 9-slice do panel-000 */
+.kenney-panel {
+    background-image: url("project://database/Assets/UI/kenney_fantasy-ui-borders/PNG/Default/Panel/panel-000.png?fileID=2800000&guid=df6150e2f963ccc43b1f5938a30edfff&type=3#panel-000");
+    -unity-background-scale-mode: stretch-to-fill;
+    -unity-slice-left: 7;
+    -unity-slice-right: 7;
+    -unity-slice-top: 7;
+    -unity-slice-bottom: 7;
+    -unity-slice-scale: 2;
+    padding: 14px 16px;
+    min-width: 180px;
+}
+
+/* Conteúdo interno */
+.panel-content {
+    flex-direction: column;
+    align-items: center;
+}
+
+/* Rótulo de fase (☀ DIA / 🌙 NOITE) */
+.phase-label {
+    font-size: 13px;
+    color: #e888a5;
+    -unity-font-style: bold;
+    letter-spacing: 2px;
+    margin-bottom: 2px;
+}
+
+.phase-day {
+    color: #ffd97d;
+}
+
+.phase-night {
+    color: #a8c4e0;
+}
+
+/* Valor numérico grande */
+.time-label {
+    font-size: 22px;
+    color: #ffffff;
+    -unity-font-style: bold;
+    -unity-text-outline-width: 1px;
+    -unity-text-outline-color: #3b0d20;
+    margin-bottom: 6px;
+}
+
+/* Barra de progresso — fundo */
+.bar-bg {
+    width: 150px;
+    height: 10px;
+    background-color: #1a0a12;
+    border-width: 2px;
+    border-color: #3b0d20;
+    border-radius: 0;
+    overflow: hidden;
+}
+
+/* Barra de progresso — preenchimento */
+.bar-fill {
+    height: 100%;
+    width: 100%;    /* controlado via código */
+    border-radius: 0;
+    transition-duration: 0.3s;
+}
+
+.bar-fill--time {
+    background-color: #ffd97d;
+}
+
+.bar-fill--time--night {
+    background-color: #6699cc;
+}
+
+.bar-fill--health {
+    background-color: #44cc66;
+}
+
+.bar-fill--health--medium {
+    background-color: #ddaa22;
+}
+
+.bar-fill--health--low {
+    background-color: #cc3333;
+}

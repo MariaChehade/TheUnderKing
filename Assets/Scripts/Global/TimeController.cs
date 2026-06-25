@@ -10,6 +10,12 @@ public class TimeController : MonoBehaviour
 
     public bool IsNight { get; private set; }
 
+    /// <summary>Segundos restantes na fase atual (dia ou noite).</summary>
+    public float TimeRemaining => timeRemaining;
+
+    /// <summary>Duração total da fase atual, para calcular porcentagem.</summary>
+    public float PhaseDuration => IsNight ? nightDurationSeconds : dayDurationSeconds;
+
     private float timeRemaining;
 
     private void Start()

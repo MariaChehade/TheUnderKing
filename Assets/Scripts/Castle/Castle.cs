@@ -7,6 +7,9 @@ public class Castle : MonoBehaviour
 
     private int currentHealth;
 
+    public int CurrentHealth => currentHealth;
+    public int MaxHealth => maxHealth;
+
     void Start()
     {
         currentHealth = maxHealth;
