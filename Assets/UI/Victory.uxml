@@ -1,0 +1,23 @@
+﻿<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements"
+         xsi="http://www.w3.org/2001/XMLSchema-instance"
+         engine="UnityEngine.UIElements" editor="UnityEditor.UIElements"
+         noNamespaceSchemaLocation="../../UIElementsSchema/UIElements.xsd"
+         editor-extension-mode="False">
+    <Style src="project://database/Assets/UI/Victory.uss" />
+
+    <ui:VisualElement name="VictoryOverlay" class="victory-overlay">
+        <ui:VisualElement name="VictoryContainer" class="victory-container">
+
+            <ui:Label name="VictoryIcon"     text="&#x1F3C6;" class="victory-icon" />
+            <ui:Label name="VictoryTitle"    text="VITÓRIA!"  class="victory-title" />
+            <ui:Label name="VictorySubtitle" text="O Under King conquistou o troféu!" class="victory-subtitle" />
+
+            <ui:VisualElement name="Divider" class="victory-divider" />
+
+            <ui:Button name="RestartButton"  text="JOGAR NOVAMENTE" class="victory-button" />
+            <ui:Button name="MainMenuButton" text="MENU PRINCIPAL"  class="victory-button" />
+            <ui:Button name="QuitButton"     text="SAIR DO JOGO"    class="victory-button--secondary" />
+
+        </ui:VisualElement>
+    </ui:VisualElement>
+</ui:UXML>

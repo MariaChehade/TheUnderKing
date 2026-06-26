@@ -6,6 +6,15 @@ public class Castle : MonoBehaviour
     /// <summary>Disparado quando o castelo chega a 0 de vida.</summary>
     public static event Action OnGameOver;
 
+    /// <summary>Disparado quando o player compra o troféu e vence o jogo.</summary>
+    public static event Action OnVictory;
+
+    /// <summary>Dispara o evento de vitória. Chame a partir de sistemas externos.</summary>
+    public static void TriggerVictory()
+    {
+        OnVictory?.Invoke();
+    }
+
     [SerializeField]
     private int maxHealth = 100;
 

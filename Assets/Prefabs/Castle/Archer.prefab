@@ -128,8 +128,13 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Archer
   arrowPrefab: {fileID: 7917908031558131241, guid: a3fef4fbb2303c943ad962a7adf4b8f0, type: 3}
+  animator: {fileID: 0}
+  attackStateName: Atack
+  idleStateName: Idle
+  arrowZOffset: -0.1
   shootCooldown: 2
-  shootRange: 15
+  shootRange: 20
   baseForce: 10
   forceVariation: 0.2
-  accuracyVariation: 0.5
+  accuracyVariation: 0.15
+  shootNormalizedTime: 0.5

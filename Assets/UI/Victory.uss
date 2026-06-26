@@ -1,0 +1,104 @@
+﻿/* =====================================================
+   Victory.uss  —  Tela de Vitória (The Under King)
+   ===================================================== */
+
+.victory-overlay {
+    display: none;
+    flex-grow: 1;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(0, 0, 0, 0.78);
+}
+
+.victory-container {
+    align-items: center;
+    background-color: #1a1400;
+    padding: 50px 70px;
+    border-width: 4px;
+    border-color: #c8a000;
+    border-radius: 0;
+}
+
+.victory-icon {
+    font-size: 80px;
+    margin-bottom: 10px;
+    -unity-text-align: middle-center;
+}
+
+.victory-title {
+    font-size: 62px;
+    color: #ffd700;
+    -unity-font-style: bold;
+    -unity-text-outline-width: 3px;
+    -unity-text-outline-color: #3a2000;
+    letter-spacing: 8px;
+    margin-bottom: 10px;
+    -unity-text-align: middle-center;
+}
+
+.victory-subtitle {
+    font-size: 18px;
+    color: #c8a060;
+    letter-spacing: 2px;
+    margin-bottom: 34px;
+    -unity-text-align: middle-center;
+}
+
+.victory-divider {
+    width: 280px;
+    height: 3px;
+    background-color: #c8a000;
+    margin-bottom: 30px;
+}
+
+.victory-button {
+    width: 280px;
+    height: 60px;
+    margin-bottom: 16px;
+    font-size: 22px;
+    color: #1a1400;
+    background-color: #ffd700;
+    border-width: 4px;
+    border-color: #c8a000;
+    border-radius: 0;
+    -unity-font-style: bold;
+    transition-duration: 0.1s;
+    letter-spacing: 2px;
+}
+
+.victory-button:hover {
+    background-color: #ffe84d;
+    scale: 1.05;
+}
+
+.victory-button:active {
+    background-color: #c8a000;
+    color: #ffffff;
+    scale: 0.95;
+}
+
+.victory-button--secondary {
+    width: 280px;
+    height: 60px;
+    margin-bottom: 0;
+    font-size: 22px;
+    color: #c8a060;
+    background-color: #2a2000;
+    border-width: 4px;
+    border-color: #3a2800;
+    border-radius: 0;
+    -unity-font-style: bold;
+    transition-duration: 0.1s;
+    letter-spacing: 2px;
+}
+
+.victory-button--secondary:hover {
+    background-color: #3a2800;
+    scale: 1.05;
+}
+
+.victory-button--secondary:active {
+    background-color: #c8a000;
+    color: #1a1400;
+    scale: 0.95;
+}

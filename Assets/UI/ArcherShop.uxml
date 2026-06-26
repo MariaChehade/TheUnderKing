@@ -1,0 +1,64 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements"
+         xsi="http://www.w3.org/2001/XMLSchema-instance"
+         engine="UnityEngine.UIElements" editor="UnityEditor.UIElements"
+         noNamespaceSchemaLocation="../../UIElementsSchema/UIElements.xsd"
+         editor-extension-mode="False">
+    <Style src="project://database/Assets/UI/ArcherShop.uss" />
+
+    <!-- Overlay semi-transparente -->
+    <ui:VisualElement name="ShopOverlay" class="shop-overlay">
+
+        <!-- Painel central -->
+        <ui:VisualElement name="ShopContainer" class="shop-container">
+
+            <!-- Cabeçalho -->
+            <ui:Label name="ShopTitle"    text="🏹 LOJA DO CASTELO" class="shop-title" />
+            <ui:Label name="ShopSubtitle" text="Contrate arqueiros para defender o reino" class="shop-subtitle" />
+            <ui:VisualElement name="TitleDivider" class="shop-divider" />
+
+            <!-- Saldo do jogador -->
+            <ui:VisualElement name="WalletRow" class="shop-wallet-row">
+                <ui:Label name="WalletLabel"    text="Seu saldo:" class="shop-wallet-label" />
+                <ui:Label name="StoneBalance"   text="&#x1FAA8; 0" class="shop-wallet-value shop-wallet-value--stone" />
+                <ui:Label name="DiamondBalance" text="&#x1F48E; 0" class="shop-wallet-value" />
+            </ui:VisualElement>
+
+            <!-- Card do arqueiro -->
+            <ui:VisualElement name="ArcherCard" class="shop-card">
+                <ui:Label name="ArcherEmoji" text="&#x1F3F9;" class="shop-card-icon" />
+                <ui:VisualElement name="ArcherInfo" class="shop-card-info">
+                    <ui:Label name="ArcherName"  text="ARQUEIRO"        class="shop-card-name" />
+                    <ui:Label name="ArcherDesc"  text="Defende o castelo atirando flechas nos inimigos" class="shop-card-desc" />
+                    <ui:VisualElement name="ArcherMeta" class="shop-card-meta">
+                        <ui:Label name="ArcherCost"  text="&#x1F48E; 5"   class="shop-card-cost" />
+                        <ui:Label name="ArcherCount" text="0 / 4"          class="shop-card-slots" />
+                    </ui:VisualElement>
+                </ui:VisualElement>
+                <ui:Button name="BuyArcherButton" text="CONTRATAR" class="shop-buy-button" />
+            </ui:VisualElement>
+
+            <!-- Card do troféu -->
+            <ui:VisualElement name="TrophyCard" class="shop-card shop-card--trophy">
+                <ui:Label name="TrophyEmoji" text="&#x1F3C6;" class="shop-card-icon" />
+                <ui:VisualElement name="TrophyInfo" class="shop-card-info">
+                    <ui:Label name="TrophyName" text="TROFÉU DA VITÓRIA" class="shop-card-name shop-card-name--trophy" />
+                    <ui:Label name="TrophyDesc" text="Conquiste o troféu e vença o jogo!" class="shop-card-desc" />
+                    <ui:VisualElement name="TrophyMeta" class="shop-card-meta">
+                        <ui:Label name="TrophyCost" text="&#x1FAA8; 50 + &#x1F48E; 20" class="shop-card-cost shop-card-cost--trophy" />
+                    </ui:VisualElement>
+                </ui:VisualElement>
+                <ui:Button name="BuyTrophyButton" text="COMPRAR" class="shop-buy-button shop-buy-button--trophy" />
+            </ui:VisualElement>
+
+            <!-- Feedback -->
+            <ui:Label name="FeedbackLabel" text="" class="shop-feedback" />
+
+
+            <ui:VisualElement name="BottomDivider" class="shop-divider" />
+
+            <!-- Fechar -->
+            <ui:Button name="CloseShopButton" text="FECHAR  [E]" class="shop-close-button" />
+
+        </ui:VisualElement>
+    </ui:VisualElement>
+</ui:UXML>

@@ -28,8 +28,8 @@ public class HUDController : MonoBehaviour
     private Label _stoneCountLabel;
     private Label _diamondCountLabel;
 
+    // Pedras ainda contadas localmente (só exibição)
     private int _stoneBroken;
-    private int _diamondBroken;
 
     private UIDocument _document;
 
@@ -84,15 +84,32 @@ public class HUDController : MonoBehaviour
             levelControll = FindFirstObjectByType<LevelControll>();
     }
 
-    private void OnEnable()  => Block.OnBlockBroken += OnBlockBroken;
-    private void OnDisable() => Block.OnBlockBroken -= OnBlockBroken;
-
-    private void OnBlockBroken(BlockType type)
+    private void OnEnable()
     {
-        if (type == BlockType.Diamond)
-            _diamondBroken++;
-        else
-            _stoneBroken++;
+        Block.OnBlockBroken           += OnBlockBroken;
+        PlayerWallet.OnDiamondsChanged += OnDiamondsChanged;
+        PlayerWallet.OnStonesChanged   += OnStonesChanged;
+    }
+
+    private void OnDisable()
+    {
+        Block.OnBlockBroken           -= OnBlockBroken;
+        PlayerWallet.OnDiamondsChanged -= OnDiamondsChanged;
+        PlayerWallet.OnStonesChanged   -= OnStonesChanged;
+    }
+
+    private void OnBlockBroken(BlockType type) { /* contagem agora é feita pelo PlayerWallet */ }
+
+    private void OnDiamondsChanged(int newAmount)
+    {
+        if (_diamondCountLabel != null)
+            _diamondCountLabel.text = newAmount.ToString();
+    }
+
+    private void OnStonesChanged(int newAmount)
+    {
+        if (_stoneCountLabel != null)
+            _stoneCountLabel.text = newAmount.ToString();
     }
 
     private void Update()
@@ -186,10 +203,11 @@ public class HUDController : MonoBehaviour
 
     private void UpdateMiningPanel()
     {
-        if (_stoneCountLabel != null)
-            _stoneCountLabel.text = _stoneBroken.ToString();
+        // Fallback de polling (os eventos já atualizam em tempo real)
+        if (_stoneCountLabel != null && PlayerWallet.Instance != null)
+            _stoneCountLabel.text = PlayerWallet.Instance.Stones.ToString();
 
-        if (_diamondCountLabel != null)
-            _diamondCountLabel.text = _diamondBroken.ToString();
+        if (_diamondCountLabel != null && PlayerWallet.Instance != null)
+            _diamondCountLabel.text = PlayerWallet.Instance.Diamonds.ToString();
     }
 }
